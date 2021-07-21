@@ -162,7 +162,7 @@
 	icon_state = "tourist"
 	inhand_icon_state = "tourist"
 
-/obj/item/clothing/shoes/sneakers
+/obj/item/clothing/shoes/sneakers/detective
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 	name = "detective shoes"

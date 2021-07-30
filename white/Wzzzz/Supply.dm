@@ -114,13 +114,7 @@
 	name = "Adv. Security Hardsuit Crate"
 	desc = "Contains a Advanced Security Hardsuit. Requires Armory access to open."
 	cost = 750
-	contains = list(/obj/item/clothing/suit/space/hardsuit/rig_secb)
-
-/datum/supply_pack/security/trau_s
-	name = "Traumatic Pistol Single-Pack"
-	desc = "Contains a single traumatic pistol. Requires Armory access to open."
-	cost = 90
-	contains = list(/obj/item/gun/ballistic/automatic/pistol/traumatic)
+	contains = list(/obj/item/clothing/suit/space/hardsuit/rig_secalt)
 
 /datum/supply_pack/security/trau
 	name = "Traumatic Pistol Crate"
@@ -129,26 +123,15 @@
 	contains = list(/obj/item/gun/ballistic/automatic/pistol/traumatic,
 					/obj/item/gun/ballistic/automatic/pistol/traumatic)
 
-/datum/supply_pack/security/trau_a_s
-	name = "Traumatic Pistol Ammo Single-Pack"
-	desc = "Contains a 8-round magazine for traumatic pistol. Each magazine is designed to facilitate rapid tactical reloads. Requires Armory access to open."
-	cost = 25
-	contains = list(/obj/item/ammo_box/magazine/traumatic)
-
 /datum/supply_pack/security/trau_a
 	name = "Traumatic Pistol Ammo Crate"
 	desc = "Contains a 8-round magazine for traumatic pistol. Each magazine is designed to facilitate rapid tactical reloads. Requires Armory access to open."
-	cost = 60
+	cost = 100
 	contains = list(/obj/item/ammo_box/magazine/traumatic,
 					/obj/item/ammo_box/magazine/traumatic,
 					/obj/item/ammo_box/magazine/traumatic,
+					/obj/item/ammo_box/magazine/traumatic,
 					/obj/item/ammo_box/magazine/traumatic)
-
-/datum/supply_pack/security/armory/mak_s
-	name = "Makarov Pistol Single-Pack"
-	desc = "Contains a single makarov pistol. Requires Armory access to open."
-	cost = 200
-	contains = list(/obj/item/gun/ballistic/automatic/pistol/makarov)
 
 /datum/supply_pack/security/armory/mak
 	name = "Makarov Pistol Crate"
@@ -157,17 +140,12 @@
 	contains = list(/obj/item/gun/ballistic/automatic/pistol/makarov,
 					/obj/item/gun/ballistic/automatic/pistol/makarov)
 
-/datum/supply_pack/security/armory/mak_a_s
-	name = "Pistol 9mm Ammo Single-Pack"
-	desc = "Contains a 15-round magazine for 9mm pistol. Each magazine is designed to facilitate rapid tactical reloads. Requires Armory access to open."
-	cost = 70
-	contains = list(/obj/item/ammo_box/magazine/m9mm)
-
 /datum/supply_pack/security/armory/mak_a
 	name = "Pistol 9mm Ammo Crate"
 	desc = "Contains a 15-round magazine for 9mm pistols. Each magazine is designed to facilitate rapid tactical reloads. Requires Armory access to open."
-	cost = 160
+	cost = 1500
 	contains = list(/obj/item/ammo_box/magazine/m9mm,
+					/obj/item/ammo_box/magazine/m9mm,
 					/obj/item/ammo_box/magazine/m9mm,
 					/obj/item/ammo_box/magazine/m9mm,
 					/obj/item/ammo_box/magazine/m9mm)

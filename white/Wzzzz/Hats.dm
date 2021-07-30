@@ -14,23 +14,6 @@
 /obj/item/clothing/head/helmet/siegehelmet/black
 	color = "#505050"
 
-/obj/item/clothing/head/helmet/rig0sec
-	name = "heavy security helmet"
-	desc = "Stylish deutch helmet"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "rig0sec"
-	inhand_icon_state = "rig0sec"
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	resistance_flags = NONE|ACID_PROOF
-	clothing_flags = BLOCK_GAS_SMOKE_EFFECT
-	armor = list("melee" = 60, "bullet" = 70, "laser" = 50,"energy" = 50, "bomb" = 60, "bio" = 50, "rad" = 50, "fire" = 60, "acid" = 50)
-	flash_protect = 2
-
 /obj/item/clothing/head/helmet/emergencyhelmet
 	name = "emergency Helmet"
 	desc = "Not ugly, just unusual."
@@ -48,75 +31,6 @@
 	resistance_flags = NONE
 	armor = list("melee" = 40, "bullet" = 25, "laser" = 20,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
 
-/obj/item/clothing/head/helmet/voxstealth
-	name = "stealth helmet"
-	desc = "Not for humans, but looks great"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "voxstealth"
-	inhand_icon_state = "voxstealth"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	resistance_flags = NONE|ACID_PROOF
-	armor = list("melee" = 30, "bullet" = 20, "laser" = 40,"energy" = 30, "bomb" = 20, "bio" = 50, "rad" = 20, "fire" = 20, "acid" = 80)
-	flash_protect = 1
-
-/obj/item/clothing/head/helmet/rig0syndieskrell
-	name = "syndicate helmet skrell"
-	desc = "Not for humans, but looks great"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "rig0syndieskrell"
-	inhand_icon_state = "rig0syndieskrell"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	resistance_flags = NONE
-	armor = list("melee" = 45, "bullet" = 60, "laser" = 30,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 55, "acid" = 50)
-
-/obj/item/clothing/head/helmet/rig0syndieunathi
-	name = "syndicate helmet unathi"
-	desc = "Not for humans, but looks great"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "rig0syndieunathi"
-	inhand_icon_state = "rig0syndieunathi"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	resistance_flags = NONE
-	armor = list("melee" = 45, "bullet" = 60, "laser" = 30,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 55, "acid" = 50)
-
-/obj/item/clothing/head/helmet/rig0syndietaj
-	name = "syndicate helmet tajare"
-	desc = "Not for humans, but looks great"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "rig0syndietaj"
-	inhand_icon_state = "rig0syndietaj"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	resistance_flags = NONE
-	armor = list("melee" = 45, "bullet" = 60, "laser" = 30,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 55, "acid" = 50)
-
 /obj/item/clothing/head/helmet/swathelm
 	name = "swat helmet"
 	desc = "Helmet for SWAT"
@@ -128,6 +42,10 @@
 	visor_flags_inv = HIDEHAIR|HIDEEARS
 	resistance_flags = NONE
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
+
+/obj/item/clothing/head/helmet/swathelm/grey
+	icon_state = "swathelmg"
+	inhand_icon_state = "swathelmg"
 
 /obj/item/clothing/head/wizard/amp
 	name = "amp"
@@ -154,24 +72,7 @@
 	resistance_flags = NONE
 	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 
-/obj/item/clothing/head/helmet/breacher_rig_cheap
-	name = "breacher helmet cheap"
-	desc = "Looks good for dark persons"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "breacher_rig_cheap"
-	inhand_icon_state = "breacher_rig_cheap"
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	resistance_flags = NONE|ACID_PROOF
-	armor = list("melee" = 60, "bullet" = 50, "laser" = 40,"energy" = 30, "bomb" = 60, "bio" = 10, "rad" = 0, "fire" = 60, "acid" = 50)
-	flash_protect = 1
-
+//?queres?
 /obj/item/clothing/head/helmet/breacher_rig
 	name = "breacher helmet"
 	desc = "Looks good for dark persons"
@@ -189,40 +90,6 @@
 	resistance_flags = NONE|ACID_PROOF|FREEZE_PROOF|LAVA_PROOF
 	armor = list("melee" = 80, "bullet" = 65, "laser" = 55,"energy" = 35, "bomb" = 75, "bio" = 25, "rad" = 10, "fire" = 75, "acid" = 100)
 	flash_protect = 3
-
-/obj/item/clothing/head/helmet/asset_protection_rig
-	name = "protection helmet"
-	desc = "Yes, that protect you"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "asset_protection_rig"
-	inhand_icon_state = "asset_protection_rig"
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACIALHAIR
-	resistance_flags = NONE
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	armor = list("melee" = 60, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 35, "bio" = 10, "rad" = 0, "fire" = 55, "acid" = 50)
-
-/obj/item/clothing/head/helmet/hazard_rig
-	name = "hazard helmet"
-	desc = "For...maybe, for hazard"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "hazard_rig"
-	inhand_icon_state = "hazard_rig"
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	flags_inv = HIDEHAIR|HIDEEYES|HIDEFACIALHAIR
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	visor_flags_inv = HIDEHAIR|HIDEEYES|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	resistance_flags = NONE|ACID_PROOF|FREEZE_PROOF
-	armor = list("melee" = 60, "bullet" = 50, "laser" = 45,"energy" = 20, "bomb" = 65, "bio" = 25, "rad" = 0, "fire" = 60, "acid" = 50)
-	flash_protect = 2
 
 /obj/item/clothing/head/helmet/helmetoldup
 	name = "old helmet black"
@@ -248,41 +115,6 @@
 	visor_flags_inv = HIDEHAIR|HIDEEARS
 	resistance_flags = NONE
 	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-
-/obj/item/clothing/head/helmet/medicalalt_helm
-	name = "medical helmet"
-	desc = "Helmet for medics"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "medicalalt_helm"
-	inhand_icon_state = "medicalalt_helm"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK|HIDEGLOVES|HIDESHOES
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEGLOVES|HIDESHOES
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	clothing_flags = STOPSPRESSUREDAMAGE
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	resistance_flags = NONE
-	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-
-/obj/item/clothing/head/helmet/secalt_helm
-	name = "hard security helmet"
-	desc = "Harder, Better, Faster, Stronger"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "secalt_helm"
-	inhand_icon_state = "secalt_helm"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	resistance_flags = NONE
-	armor = list("melee" = 55, "bullet" = 45, "laser" = 30,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-	flash_protect = 1
 
 /obj/item/clothing/head/helmet/helmet_reflect
 	name = "hard security helmet"
@@ -398,41 +230,6 @@
 	flash_protect = 2
 	tint = 2
 
-/obj/item/clothing/head/helmet/merc_rig_heavy
-	name = "heavy Syndicate helmet"
-	desc = "Really heavy"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "merc_rig_heavy"
-	inhand_icon_state = "merc_rig_heavy"
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE
-	resistance_flags = NONE|ACID_PROOF|FREEZE_PROOF
-	armor = list("melee" = 70, "bullet" = 60, "laser" = 50,"energy" = 10, "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 60)
-	flash_protect = 1
-
-/obj/item/clothing/head/helmet/facecover
-	name = "facecover"
-	desc = "Looks unusually"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "facecover"
-	inhand_icon_state = "facecover"
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	clothing_flags = BLOCK_GAS_SMOKE_EFFECT
-	resistance_flags = NONE
-	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-
 /obj/item/clothing/head/helmet/helmet_sol
 	name = "soldier helmet"
 	desc = "Looks strange for soldier, but that for soldiers"
@@ -473,21 +270,6 @@
 	clothing_flags = BLOCK_GAS_SMOKE_EFFECT|STOPSPRESSUREDAMAGE|SNUG_FIT
 	resistance_flags = NONE|ACID_PROOF
 	armor = list("melee" = 40, "bullet" = 20, "laser" = 30,"energy" = 30, "bomb" = 30, "bio" = 100, "rad" = 100, "fire" = 75, "acid" = 70)
-
-/obj/item/clothing/head/helmet/space/excavation
-	name = "excavation voidsuit helmet"
-	desc = "A sophisticated voidsuit helmet, capable of protecting the wearer from many exotic alien energies."
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "rig0_excavation"
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	inhand_icon_state = "rig0_excavation"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	resistance_flags = NONE
-	armor = list(melee = 30, bullet = 0, laser = 5 ,energy = 40, bomb = 35, bio = 100, rad = 100)
 
 /obj/item/clothing/head/bomb_hood/german
 	name = "bomb helmet"
@@ -577,38 +359,6 @@
 	resistance_flags = NONE
 	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 
-/obj/item/clothing/head/helmet/space/eva
-	name = "Pirate"
-	desc = "Pirate technologies"
-	icon = 'white/Wzzzz/pirha.dmi'
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-	icon_state = "pirha"
-	inhand_icon_state = "pirha"
-
-/obj/item/clothing/head/helmet/space/eva/grey
-	icon_state = "pirhag"
-	inhand_icon_state = "pirhag"
-
-/obj/item/clothing/head/helmet/space/eva/black
-	icon_state = "pirhab"
-	inhand_icon_state = "pirhab"
-
-/obj/item/clothing/head/helmet/space/syndicate
-	name = "Pirate space helmet"
-	desc = "Pirate technologies"
-	icon = 'white/Wzzzz/pirha.dmi'
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-	icon_state = "pirhald"
-	inhand_icon_state = "pirhald"
-
-/obj/item/clothing/head/helmet/space/syndicate/grey
-	icon_state = "pirhaldg"
-	inhand_icon_state = "pirhaldg"
-
-/obj/item/clothing/head/helmet/space/syndicate/black
-	icon_state = "pirhaldb"
-	inhand_icon_state = "pirhaldb"
-
 /obj/item/clothing/head/helmet/helmet_tac/helmet_allya1
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
 	icon = 'white/Wzzzz/pirha.dmi'
@@ -648,26 +398,9 @@
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
 	hat_type = "atmos"
 
-/obj/item/clothing/head/hardhat/atmos/grey
-	icon_state = "hardhat0_atmosg"
-	inhand_icon_state = "hardhat0_atmosg"
-	hat_type = "atmosg"
-
-/obj/item/clothing/head/hardhat/atmos/black
-	icon_state = "hardhat0_atmosb"
-	inhand_icon_state = "hardhat0_atmosb"
-	hat_type = "atmosb"
-
-
 /obj/item/clothing/head/hardhat/grey
 	icon_state = "hardhat0g"
 	inhand_icon_state = "hardhat0g"
-	icon = 'white/Wzzzz/pirha.dmi'
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-
-/obj/item/clothing/head/hardhat/red/black
-	icon_state = "hardhat0b"
-	inhand_icon_state = "hardhat0b"
 	icon = 'white/Wzzzz/pirha.dmi'
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
 
@@ -694,23 +427,6 @@
 	icon_state = "hardhat0_firefighterc"
 	inhand_icon_state = "hardhat0_firefighterc"
 	hat_type = "firefighterc"
-
-/obj/item/clothing/head/helmet/swathelm/grey
-	icon_state = "swathelmg"
-	inhand_icon_state = "swathelmg"
-
-/obj/item/clothing/head/helmet/swathelm/black
-	icon_state = "swathelmb"
-	inhand_icon_state = "swathelmb"
-
-/obj/item/clothing/head/helmet/riot
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	name = "riot helmet"
-	desc = "Riot helmet..."
-	icon_state = "helmet_riot2"
-	inhand_icon_state = "helmet_riot2"
-	armor = list("melee" = 50, "bullet" = 35, "laser" = 10, "energy" = 10, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 80)
 
 /obj/item/clothing/head/helmet/tac_helmet
 	name = "tactical hazmat helmet"
@@ -774,36 +490,27 @@
 	resistance_flags = NONE
 	armor = list("melee" = 50, "bullet" = 20, "laser" = 20,"energy" = 10, "bomb" = 40, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 50)
 
-/obj/item/clothing/head/helmet
+/obj/item/clothing/head/helmet/med
 	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
 	icon = 'white/Wzzzz/clothing/head.dmi'
 
-/obj/item/clothing/head/helmet/coif
+/obj/item/clothing/head/helmet/med/coif
 	name = "coif"
 	desc = "Medieval balaclava"
 	icon_state = "coif"
 	inhand_icon_state = "coif"
 	dynamic_hair_suffix = ""
-	flags_inv = HIDEEARS|HIDEHAIR
-	visor_flags_inv = HIDEEARS|HIDEHAIR
+	flags_inv = HIDEHAIR|HIDEEARS
+	visor_flags_inv = HIDEHAIR|HIDEEARS
 	resistance_flags = NONE
 	armor = list("melee" = 20, "bullet" = 10, "laser" = 5,"energy" = 5, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 20)
 
-/obj/item/clothing/head/helmet/coif/helmet
+/obj/item/clothing/head/helmet/med/coif/helmet
 	name = "coif helmet"
 	desc = "Medieval balaclava with helmet"
 	icon_state = "coif_helmet"
 	inhand_icon_state = "coif_helmet"
 	armor = list("melee" = 50, "bullet" = 20, "laser" = 20,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 40, "acid" = 40)
-
-/obj/item/clothing/head/helmet/skull
-	name = "skull mask"
-	desc = "Life is full of cruel. That's one of examples."
-	slot_flags = ITEM_SLOT_MASK
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon_state = "skull_mask"
-	inhand_icon_state = "skull_mask"
 
 /obj/item/clothing/head/helmet/tac_helmet/grey
 	icon_state = "tac_helmet"
@@ -825,72 +532,61 @@
 	icon_state = "bio_anomh"
 	inhand_icon_state = "bio_anomh"
 
-/obj/item/clothing/head/helmet/greek
-	name = "greek helmet"
-	desc = null
-	icon_state = "greek"
-	inhand_icon_state = "greek"
-	flags_inv = HIDEEARS|HIDEHAIR
-	visor_flags_inv = HIDEEARS|HIDEHAIR
-	dynamic_hair_suffix = null
-	armor = list("melee" = 35, "bullet" = 25, "laser" = 15,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 40, "acid" = 30)
-
-/obj/item/clothing/head/helmet/greek/c
-	icon_state = "greek_c"
-	inhand_icon_state = "greek_c"
-
-/obj/item/clothing/head/helmet/greek/sl
-	icon_state = "greek_sl"
-	inhand_icon_state = "greek_sl"
-
-/obj/item/clothing/head/helmet/knight
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon_state = "knight_simple"
-	inhand_icon_state = "knight_simple"
-
-/obj/item/clothing/head/helmet/goldenhelmet
-	name = "golden helmet"
-	desc = "Very expensive for old times."
-	icon_state = "goldenhelmet"
-	inhand_icon_state = "goldenhelmet"
-	flags_inv = HIDEEARS|HIDEHAIR
-	visor_flags_inv = HIDEEARS|HIDEHAIR
-	dynamic_hair_suffix = null
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 15,"energy" = 10, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 35, "acid" = 30)
-	custom_materials = list(/datum/material/gold=50, /datum/material/iron=20)
-
-/obj/item/clothing/head/helmet/medieval_helmet
+/obj/item/clothing/head/helmet/med/top
 	name = "medieval helmet"
 	desc = "Iron protects your head."
-	flags_inv = HIDEEARS|HIDEHAIR
-	visor_flags_inv = HIDEEARS|HIDEHAIR
-
-/obj/item/clothing/head/helmet/medieval_helmet/tier1
+	flags_inv = null
+	visor_flags_inv = null
+	icon = 'white/Wzzzz/clothing/head.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
 	armor = list("melee" = 30, "bullet" = 20, "laser" = 10,"energy" = 8, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 10)
 	icon_state = "medieval_helmet3"
 	inhand_icon_state = "medieval_helmet3"
 	dynamic_hair_suffix = null
 
-/obj/item/clothing/head/helmet/medieval_helmet/tier2
+/obj/item/clothing/head/helmet/med/hat
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 15,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 15)
 	icon_state = "medieval_helmet2"
 	inhand_icon_state = "medieval_helmet2"
 
-/obj/item/clothing/head/helmet/medieval_helmet/tier3
+/obj/item/clothing/head/helmet/med/full
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 20,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 40, "acid" = 27)
 	icon_state = "medieval_helmet1"
 	inhand_icon_state = "medieval_helmet1"
 	dynamic_hair_suffix = null
 
-/obj/item/clothing/head/crown
+/obj/item/clothing/head/helmet/med/goldenhelmet
+	name = "golden helmet"
+	desc = "Very expensive for old times."
+	icon_state = "goldenhelmet"
+	inhand_icon_state = "goldenhelmet"
+	dynamic_hair_suffix = null
+	armor = list("melee" = 30, "bullet" = 25, "laser" = 15,"energy" = 10, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 35, "acid" = 30)
+	custom_materials = list(/datum/material/gold=50, /datum/material/iron=20)
+
+/obj/item/clothing/head/helmet/med/greek
+	name = "greek helmet"
+	desc = null
+	icon_state = "greek"
+	inhand_icon_state = "greek"
+	dynamic_hair_suffix = null
+	armor = list("melee" = 35, "bullet" = 25, "laser" = 15,"energy" = 10, "bomb" = 35, "bio" = 0, "rad" = 0, "fire" = 40, "acid" = 30)
+
+/obj/item/clothing/head/helmet/med/greek/c
+	icon_state = "greek_c"
+	inhand_icon_state = "greek_c"
+
+/obj/item/clothing/head/helmet/med/greek/sl
+	icon_state = "greek_sl"
+	inhand_icon_state = "greek_sl"
+
+/obj/item/clothing/head/helmet/med/knight
+	icon_state = "knight_simple"
+	inhand_icon_state = "knight_simple"
+
+/obj/item/clothing/head/crown/med
 	icon = 'white/Wzzzz/clothing/head.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-
-/obj/item/clothing/head/beret/blue
-	name = "blue beret"
-	icon_state = "beret_blue"
-	inhand_icon_state = "beret_blue"
 
 /obj/item/clothing/head/zhan_scarf
 	name = "zhan scarf"
@@ -1052,14 +748,6 @@
 	icon_state = "officercap"
 	inhand_icon_state = "officercap"
 
-/obj/item/clothing/head/beret_greensilver
-	name = "green beret"
-	desc = "Russian style"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "beret_greensilver"
-	inhand_icon_state = "beret_greensilver"
-
 /obj/item/clothing/head/soft/ntwhitesoft
 	name = "NT cap"
 	soft_type = "ntwhite"
@@ -1068,14 +756,6 @@
 	icon = 'white/Wzzzz/clothing/head.dmi'
 	icon_state = "ntwhitesoft"
 	inhand_icon_state = "ntwhitesoft"
-
-/obj/item/clothing/head/beret_corporate_whitered
-	name = "NT beret"
-	desc = "Unusual white color"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "beret_corporate_whitered"
-	inhand_icon_state = "beret_corporate_whitered"
 
 /obj/item/clothing/head/bow
 	name = "bow"
@@ -1283,29 +963,6 @@
 	inhand_icon_state = "ttcushankaup"
 	armor = list("melee" = 10, "bullet" = 5, "laser" = 5, "energy" = 0, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 5)
 
-/obj/item/clothing/head/beret
-	name = "beret"
-	icon_state = "beret"
-	inhand_icon_state = "beret"
-	desc = "So many variations of berets"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-
-/obj/item/clothing/head/beret/corpsec
-	name = "corpsec beret"
-	icon_state = "corpsec_beret"
-	inhand_icon_state = "corpsec_beret"
-
-/obj/item/clothing/head/beret/flat
-	name = "flat beret"
-	icon_state = "flat_cap"
-	inhand_icon_state = "flat_cap"
-
-/obj/item/clothing/head/beret/grey
-	name = "grey beret"
-	icon_state = "gentcap"
-	inhand_icon_state = "gentcap"
-
 /obj/item/clothing/head/surgcap/purple
 	name = "purple surgery cap"
 	desc = "Surgery"
@@ -1345,161 +1002,6 @@
 	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
 	icon = 'white/Wzzzz/clothing/head.dmi'
 	inhand_icon_state = "surgcap_navyblue"
-
-/obj/item/clothing/head/beret/purpleyellow
-	name = "purpleyellow beret"
-	icon_state = "beret_purpleyellow"
-	inhand_icon_state = "beret_purpleyellow"
-
-/obj/item/clothing/head/beret/lightblue
-	name = "lightblue beret"
-	icon_state = "beret_lightblue"
-	inhand_icon_state = "beret_lightblue"
-
-/obj/item/clothing/head/beret/orange
-	name = "orange beret"
-	icon_state = "beret_orange"
-	inhand_icon_state = "beret_orange"
-
-/obj/item/clothing/head/beret/green
-	name = "green beret"
-	icon_state = "beret_green"
-	inhand_icon_state = "beret_green"
-
-/obj/item/clothing/head/beret/white
-	name = "white beret"
-	icon_state = "beret_white"
-	inhand_icon_state = "beret_white"
-
-/obj/item/clothing/head/beret/corporate_red
-	name = "red corporate beret"
-	icon_state = "beret_corporate_red"
-	inhand_icon_state = "beret_corporate_red"
-
-/obj/item/clothing/head/beret/corporate_navy
-	name = "navy corporate beret"
-	icon_state = "beret_corporate_navy"
-	inhand_icon_state = "beret_corporate_navy"
-
-/obj/item/clothing/head/beret/corporate_navy_officer
-	name = "navy corporate officer beret"
-	icon_state = "beret_corporate_navy_officer"
-	inhand_icon_state = "beret_corporate_navy_officer"
-
-/obj/item/clothing/head/beret/corporate_navy_warden
-	name = "navy corporate warden beret"
-	icon_state = "beret_corporate_navy_warden"
-	inhand_icon_state = "beret_corporate_navy_warden"
-
-/obj/item/clothing/head/beret/corporate_navy_hos
-	name = "navy corporate hos beret"
-	icon_state = "beret_corporate_navy_hos"
-	inhand_icon_state = "beret_corporate_navy_hos"
-
-/obj/item/clothing/head/beret/black
-	name = "black beret"
-	icon_state = "beret_black"
-	inhand_icon_state = "beret_black"
-
-/obj/item/clothing/head/beret/corporate_officer
-	name = "corporate officer beret"
-	icon_state = "beret_corporate_officer"
-	inhand_icon_state = "beret_corporate_officer"
-
-/obj/item/clothing/head/beret/corporate_warden
-	name = "corporate warden beret"
-	icon_state = "beret_corporate_warden"
-	inhand_icon_state = "beret_corporate_warden"
-
-/obj/item/clothing/head/beret/corporate_hos
-	name = "corporate hos beret"
-	icon_state = "beret_corporate_hos"
-	inhand_icon_state = "beret_corporate_hos"
-
-/obj/item/clothing/head/beret/corporate_white
-	name = "white corporate beret"
-	icon_state = "beret_corporate_white"
-	inhand_icon_state = "beret_corporate_white"
-
-/obj/item/clothing/head/beret/purple
-	name = "purple beret"
-	icon_state = "beret_purple"
-	inhand_icon_state = "beret_purple"
-
-/obj/item/clothing/head/beret/navy
-	name = "navy beret"
-	icon_state = "beret_navy"
-	inhand_icon_state = "beret_navy"
-
-/obj/item/clothing/head/beret/navy_security
-	name = "navy security beret"
-	icon_state = "beret_navy_security"
-	inhand_icon_state = "beret_navy_security"
-
-/obj/item/clothing/head/beret/navy_medical
-	name = "navy medical beret"
-	icon_state = "beret_navy_medical"
-	inhand_icon_state = "beret_navy_medical"
-
-/obj/item/clothing/head/beret/navy_engineering
-	name = "navy engineering beret"
-	icon_state = "beret_navy_engineering"
-	inhand_icon_state = "beret_navy_engineering"
-
-/obj/item/clothing/head/beret/navy_supply
-	name = "navy supply beret"
-	icon_state = "beret_navy_supply"
-	inhand_icon_state = "beret_navy_supply"
-
-/obj/item/clothing/head/beret/navy_command
-	name = "navy command beret"
-	icon_state = "beret_navy_command"
-	inhand_icon_state = "beret_navy_command"
-
-/obj/item/clothing/head/beret/black_security
-	name = "black security beret"
-	icon_state = "beret_black_security"
-	inhand_icon_state = "beret_black_security"
-
-/obj/item/clothing/head/beret/black_medical
-	name = "black medical beret"
-	icon_state = "beret_black_medical"
-	inhand_icon_state = "beret_black_medical"
-
-/obj/item/clothing/head/beret/black_engineering
-	name = "black engineering beret"
-	icon_state = "beret_black_engineering"
-	inhand_icon_state = "beret_black_engineering"
-
-/obj/item/clothing/head/beret/black_supply
-	name = "black supply beret"
-	icon_state = "beret_black_supply"
-	inhand_icon_state = "beret_black_supply"
-
-/obj/item/clothing/head/beret/black_command
-	name = "black command beret"
-	icon_state = "beret_black_command"
-	inhand_icon_state = "beret_black_command"
-
-/obj/item/clothing/head/beret/graysilver
-	name = "graysilver beret"
-	icon_state = "beret_graysilver"
-	inhand_icon_state = "beret_graysilver"
-
-/obj/item/clothing/head/beret/redgold
-	name = "redgold beret"
-	icon_state = "beret_redgold"
-	inhand_icon_state = "beret_redgold"
-
-/obj/item/clothing/head/beret/greensilver
-	name = "greensilver beret"
-	icon_state = "beret_greensilver"
-	inhand_icon_state = "beret_greensilver"
-
-/obj/item/clothing/head/beret/tan
-	name = "tan beret"
-	icon_state = "beret_tan"
-	inhand_icon_state = "beret_tan"
 
 /obj/item/clothing/head/helmet/chicken
 	name = "chicken head"
@@ -1675,17 +1177,13 @@
 	dynamic_hair_suffix = ""
 	flags_inv = HIDEEARS|HIDEHAIR
 
-/obj/item/clothing/head/helmet/space/eva/spacebowl
-	name = "spacebowl"
-	desc = "Classic style, standart protection"
-	icon_state = "spacebowl"
-	inhand_icon_state = "spacebowl"
-
 /obj/item/clothing/head/helmet/space/eva/spacebowl_dark
 	name = "spacebowl"
 	desc = "Classic style, standart protection"
 	icon_state = "spacebowl_dark"
 	inhand_icon_state = "spacebowl_dark"
+	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
+	icon = 'white/Wzzzz/clothing/head.dmi'
 
 /obj/item/clothing/head/hijab/black
 	color = "#303030"
@@ -1844,18 +1342,6 @@
 	icon_state = "noblehat2"
 	inhand_icon_state = "noblehat2"
 
-/obj/item/clothing/head/beret/redberet
-	name = "red beret"
-	desc = "Old style of beret."
-	icon_state = "redberet"
-	inhand_icon_state = "redberet"
-
-/obj/item/clothing/head/beret/blueberet
-	name = "red beret"
-	desc = "Old style of beret."
-	icon_state = "blueberet"
-	inhand_icon_state = "blueberet"
-
 /obj/item/clothing/head/kerchief
 	name = "kerchief"
 	desc = "Kerch."
@@ -1900,29 +1386,17 @@
 	icon = 'white/Wzzzz/pirha.dmi'
 	icon_state = "bio_scientist_alt"
 
-/obj/item/clothing/head/bio_hood/scientist/clear
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-	icon = 'white/Wzzzz/pirha.dmi'
-	icon_state = "bio_scientisth"
-
 /obj/item/clothing/head/bearpelt/evil
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
 	icon = 'white/Wzzzz/pirha.dmi'
 
-/obj/item/clothing/head/helmet/swat
-	inhand_icon_state = "sind"
-	icon_state = "sind"
+/obj/item/clothing/head/helmet/swat/syn
+	icon_state = "swatsyndiealt"
 	icon = 'white/Wzzzz/pirha.dmi'
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
 
-/obj/item/clothing/head/helmet/swat/syn
-	icon_state = "swatsyndiealt"
-
 /obj/item/clothing/head/helmet/swat/syn/noglasses
 	icon_state = "swatsyndie_noglassalt"
-
-/obj/item/clothing/head/helmet/swat/noglasses
-	icon_state = "swatsyndie_noglass"
 
 /obj/item/clothing/head/helmet/arbiter
 	name = "arbiter helmet"
@@ -1987,3 +1461,79 @@
 	dynamic_hair_suffix = ""
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 9,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 10)
+
+obj/item/clothing/head/helmet/police
+	flags_inv = null
+	visor_flags_inv = null
+	dynamic_fhair_suffix = ""
+	dynamic_hair_suffix = ""
+
+/obj/item/clothing/head/bio_hood/scientist
+	worn_icon = 'white/Wzzzz/pirha1.dmi'
+	icon = 'white/Wzzzz/pirha.dmi'
+	icon_state = "bio_scientisth"
+	worn_icon_state = "bio_scientisth"
+
+obj/item/clothing/head/helmet/chaplain
+	dynamic_fhair_suffix = ""
+	dynamic_hair_suffix = ""
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
+	visor_flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
+
+/obj/item/clothing/head/helmet/chaplain/witchunter_hat
+	flags_inv = null
+	visor_flags_inv = null
+	dynamic_hair_suffix = "+generic"
+
+/obj/item/clothing/head/helmet/chaplain/adept
+	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
+	visor_flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
+
+/*
+/obj/item/clothing/head/helmet/space/excavation
+	name = "excavation voidsuit helmet"
+	desc = "A sophisticated voidsuit helmet, capable of protecting the wearer from many exotic alien energies."
+	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
+	icon = 'white/Wzzzz/clothing/head.dmi'
+	icon_state = "rig0_excavation"
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
+	inhand_icon_state = "rig0_excavation"
+	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
+	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
+	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
+	resistance_flags = NONE
+	armor = list(melee = 30, bullet = 0, laser = 5 ,energy = 40, bomb = 35, bio = 100, rad = 100)
+
+/obj/item/clothing/head/helmet/breacher_rig_cheap
+	name = "breacher helmet cheap"
+	desc = "Looks good for dark persons"
+	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
+	icon = 'white/Wzzzz/clothing/head.dmi'
+	icon_state = "breacher_rig_cheap"
+	inhand_icon_state = "breacher_rig_cheap"
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
+	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
+	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
+	resistance_flags = NONE|ACID_PROOF
+	armor = list("melee" = 60, "bullet" = 50, "laser" = 40,"energy" = 30, "bomb" = 60, "bio" = 10, "rad" = 0, "fire" = 60, "acid" = 50)
+	flash_protect = 1
+
+/obj/item/clothing/head/helmet/swathelm/black
+	icon_state = "swathelmb"
+	inhand_icon_state = "swathelmb"
+
+/obj/item/clothing/suit/armor/vest/capcarapace/syndicate/dark
+	icon = 'white/Wzzzz/pirha.dmi'
+	inhand_icon_state = "syndievestb"
+	icon_state = "syndievestb"
+	worn_icon = 'white/Wzzzz/pirha1.dmi'
+
+/obj/item/clothing/suit/armor/vest/swatarmor_german/black
+	icon_state = "swatarmorb"
+	inhand_icon_state = "swatarmorb"
+*/

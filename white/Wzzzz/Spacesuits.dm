@@ -94,16 +94,6 @@
 	allowed = list(/obj/item/gun, /obj/item/ammo_box, /obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/transforming/energy/sword/saber, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
 	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 30, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 50)
 
-/obj/item/clothing/suit/space/syndicate/german
-	name = "orange space suit"
-	icon_state = "syndicate_orange_ger"
-	inhand_icon_state = "syndicate_orange_ger"
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	cold_protection = CHEST|GROIN|LEGS|ARMS
-	heat_protection = CHEST|GROIN|LEGS|ARMS
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-
 /obj/item/clothing/suit/space/skrell_suit_black
 	name = "black space suit"
 	desc = "For skrells, but we anyway too use it"
@@ -134,21 +124,6 @@
 	allowed = list(/obj/item/gun, /obj/item/ammo_box, /obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/transforming/energy/sword/saber, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30,"energy" = 30, "bomb" = 40, "bio" = 100, "rad" = 0, "fire" = 60, "acid" = 60)
 
-/obj/item/clothing/suit/space/zhan_furs
-	name = "zhan suit"
-	desc = "Space suit. Yes."
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	icon_state = "zhan_furs"
-	inhand_icon_state = "zhan_furs"
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	cold_protection = CHEST|GROIN|LEGS|ARMS
-	heat_protection = CHEST|GROIN|LEGS|ARMS
-	clothing_flags = STOPSPRESSUREDAMAGE
-	w_class = WEIGHT_CLASS_HUGE
-	allowed = list(/obj/item/gun, /obj/item/ammo_box, /obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/transforming/energy/sword/saber, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 30,"energy" = 30, "bomb" = 40, "bio" = 100, "rad" = 0, "fire" = 60, "acid" = 60)
-	
 /obj/item/clothing/suit/space/syndicate/black/engie
 	resistance_flags = NONE|FREEZE_PROOF|FIRE_PROOF
 
@@ -182,15 +157,6 @@
 	icon_state = "space_emergency"
 	inhand_icon_state = "space_emergency"
 	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 30, "bio" = 100, "rad" = 0, "fire" = 40, "acid" = 30)
-
-/obj/item/clothing/suit/space/eva
-	name = "spacesuit"
-	desc = "Classic..."
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon_state = "civrig"
-	inhand_icon_state = "civrig"
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 20, "energy" = 10, "bomb" = 40, "bio" = 100, "rad" = 30, "fire" = 70, "acid" = 50)
 
 /obj/item/clothing/suit/space/anomaly/grey
 	icon = 'white/Wzzzz/pirha.dmi'

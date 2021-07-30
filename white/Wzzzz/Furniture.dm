@@ -1,10 +1,10 @@
-/obj/structure/chair/wood
+/obj/structure/chair/wood/alt
 	icon = 'white/Wzzzz/furryture.dmi'
 
-/obj/structure/chair/wood/red
+/obj/structure/chair/wood/alt/red
 	icon_state = "wooden_chair_red"
 
-/obj/structure/bed
+/obj/structure/bed/cheap
 	icon = 'white/Wzzzz/furryture.dmi'
 
 /obj/structure/closet/crate/wooden
@@ -19,13 +19,15 @@
 	icon_state = "wood_chest"
 
 /obj/structure/statue/sandstone/gym/sex
-	name = "статуя сасного босса качалки"
+	name = "статуя босса качалки"
 	desc = "Древняя постройка, посвящённая некому божеству."
 	icon = 'white/Wzzzz/chads.dmi'
 	icon_state = "sex"
+	inertia_next_move = 0
 
 /obj/structure/statue/sandstone/gym/brutal
-	name = "статуя мощного босса качалки"
+	name = "статуя босса качалки"
 	desc = "Древняя постройка, посвящённая некому божеству."
 	icon = 'white/Wzzzz/chads.dmi'
 	icon_state = "power"
+	inertia_next_move = 0

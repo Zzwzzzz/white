@@ -72,7 +72,6 @@
 	resistance_flags = NONE
 	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 
-//?queres?
 /obj/item/clothing/head/helmet/breacher_rig
 	name = "breacher helmet"
 	desc = "Looks good for dark persons"
@@ -1473,67 +1472,3 @@ obj/item/clothing/head/helmet/police
 	icon = 'white/Wzzzz/pirha.dmi'
 	icon_state = "bio_scientisth"
 	worn_icon_state = "bio_scientisth"
-
-obj/item/clothing/head/helmet/chaplain
-	dynamic_fhair_suffix = ""
-	dynamic_hair_suffix = ""
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
-	visor_flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
-
-/obj/item/clothing/head/helmet/chaplain/witchunter_hat
-	flags_inv = null
-	visor_flags_inv = null
-	dynamic_hair_suffix = "+generic"
-
-/obj/item/clothing/head/helmet/chaplain/adept
-	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
-	visor_flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
-
-/*
-/obj/item/clothing/head/helmet/space/excavation
-	name = "excavation voidsuit helmet"
-	desc = "A sophisticated voidsuit helmet, capable of protecting the wearer from many exotic alien energies."
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "rig0_excavation"
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	inhand_icon_state = "rig0_excavation"
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	resistance_flags = NONE
-	armor = list(melee = 30, bullet = 0, laser = 5 ,energy = 40, bomb = 35, bio = 100, rad = 100)
-
-/obj/item/clothing/head/helmet/breacher_rig_cheap
-	name = "breacher helmet cheap"
-	desc = "Looks good for dark persons"
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	icon_state = "breacher_rig_cheap"
-	inhand_icon_state = "breacher_rig_cheap"
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
-	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-	resistance_flags = NONE|ACID_PROOF
-	armor = list("melee" = 60, "bullet" = 50, "laser" = 40,"energy" = 30, "bomb" = 60, "bio" = 10, "rad" = 0, "fire" = 60, "acid" = 50)
-	flash_protect = 1
-
-/obj/item/clothing/head/helmet/swathelm/black
-	icon_state = "swathelmb"
-	inhand_icon_state = "swathelmb"
-
-/obj/item/clothing/suit/armor/vest/capcarapace/syndicate/dark
-	icon = 'white/Wzzzz/pirha.dmi'
-	inhand_icon_state = "syndievestb"
-	icon_state = "syndievestb"
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-
-/obj/item/clothing/suit/armor/vest/swatarmor_german/black
-	icon_state = "swatarmorb"
-	inhand_icon_state = "swatarmorb"
-*/

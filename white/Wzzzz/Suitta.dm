@@ -385,12 +385,6 @@
 	icon_state = "sciponcho_nt"
 	inhand_icon_state = "sciponcho_nt"
 
-/obj/item/clothing/suit/militaryjacket
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	body_parts_covered = CHEST|ARMS
-
 /obj/item/clothing/suit/service_co_coat
 	name = "service jacket"
 	desc = "Jacket for scientists."
@@ -404,18 +398,30 @@
 	desc = "Desert military jacket"
 	icon_state = "desertmiljacket"
 	inhand_icon_state = "desertmiljacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/militaryjacket/sec
 	name = "security jacket"
 	desc = "Security military jacket"
 	icon_state = "secmiljacket"
 	inhand_icon_state = "secmiljacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/militaryjacket/navy
 	name = "navy jacket"
 	desc = "Navy military jacket"
 	icon_state = "navymiljacket"
 	inhand_icon_state = "navymiljacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/greymiljacket
 	name = "grey jacket"

@@ -1,4 +1,4 @@
-/datum/outfit/wzzzz/firstblood
+/datum/outfit/firstblood
 	name = "Космический Опустошитель"
 	uniform = /obj/item/clothing/under/syndicate/combat/german
 	suit = /obj/item/clothing/suit/space/hardsuit/syndi/elite/breacher
@@ -32,7 +32,7 @@
 	id = /obj/item/card/id/advanced/centcom/ert/engineer
 
 /datum/outfit/sov_off
-	name = "Советский Офицер"
+	name = "Советский офицер"
 	uniform = /obj/item/clothing/under/costume/soviet
 	suit = /obj/item/clothing/suit/armor/vest/russian_coat
 	glasses = /obj/item/clothing/glasses/hud/health/night/red
@@ -50,7 +50,7 @@
 	backpack_contents = list(/obj/item/storage/box/zipties=1, /obj/item/ammo_box/a357=1)
 
 /datum/outfit/nt_guard
-	name = "Охранник НТ"
+	name = "Сторож НТ"
 	uniform = /obj/item/clothing/under/rank/security/officer/guard/nt
 	suit = /obj/item/clothing/suit/armor/vest/german/ntvest
 	glasses = /obj/item/clothing/glasses/sec_flash
@@ -96,7 +96,7 @@
 	id = /obj/item/card/id/advanced/black/syndicate_command
 
 /datum/outfit/spa_eng
-	name = "Космический Инженер"
+	name = "Космический инженер"
 	uniform = /obj/item/clothing/under/rank/engineering/engineer/hazard
 	suit = /obj/item/clothing/suit/space/eng
 	glasses = /obj/item/clothing/glasses/meson/engine
@@ -113,7 +113,7 @@
 	id = /obj/item/card/id/advanced/centcom/ert/engineer
 
 /datum/outfit/cult_shotgun
-	name = "Культист Чеснобога с Дробовиком"
+	name = "Культист Чеснобога с дробовиков"
 	uniform = /obj/item/clothing/under/victorian/vest
 	suit = /obj/item/clothing/suit/hooded/chaplainsuit/monkfrock/cultist/shotgun
 	glasses = null
@@ -147,7 +147,7 @@
 	l_hand = /obj/item/gun/ballistic/automatic/tommygun
 
 /datum/outfit/cult_dynamite
-	name = "Подрывник Культа Чернобога"
+	name = "Культист Чеснобога Подрывник"
 	uniform = /obj/item/clothing/under/victorian/vest
 	suit = /obj/item/clothing/suit/hooded/chaplainsuit/monkfrock/cultist/dynamite
 	glasses = null
@@ -197,3 +197,4 @@
 	suit_store = /obj/item/kitchen/knife/combat/bone
 	l_hand = /obj/item/melee/medwep/longsword
 	r_hand = /obj/item/shield/riot/buckler/med/steel
+

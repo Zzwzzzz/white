@@ -148,10 +148,10 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF | 52
 	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	clothing_flags = STOPSPRESSUREDAMAGE|BLOCK_GAS_SMOKE_EFFECT
-	flags_inv = HIDEEARS|HIDEFACE|HIDEMASK|HIDEHAIR|HIDEFACIALHAIR
+	flags_inv = HIDEEARS|HIDEFACE|HIDEMASK
 	var/obj/item/clothing/head/helmet/space/hardsuit/breacher = null
 	actions_types = list(/datum/action/item_action/toggle_helmet_mode)
-	visor_flags_inv = HIDEMASK|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	visor_flags_inv = HIDEMASK|HIDEEYES|HIDEFACE
 	resistance_flags = NONE|ACID_PROOF|FIRE_PROOF|FREEZE_PROOF|LAVA_PROOF
 	light_system = MOVABLE_LIGHT
 	light_range = 1
@@ -296,6 +296,13 @@
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/rig_miningalt
+
+
+
+
+
+
+
 
 
 
@@ -828,8 +835,8 @@
 
 
 /obj/item/clothing/head/helmet/space/hardsuit/rig_salvage
-	name = "Шлем изношенного костюма"
-	desc = "Не очень хорошо сохарнившийся шлем, но, всё нужное на месте."
+	name = "salvage hardsuit helmet"
+	desc = "Salvaged hardsuit."
 	alt_desc = "Salvaged hardsuit."
 	icon_state = "rig_salvage"
 	inhand_icon_state = "rig_salvage"
@@ -846,8 +853,8 @@
 	resistance_flags = NONE|FIRE_PROOF|FREEZE_PROOF
 
 /obj/item/clothing/suit/space/hardsuit/rig_salvage
-	name = "изношенный скафандр"
-	desc = "Тяжело, грубо, но лучше, чем ничего в открытом космосе."
+	name = "salvaged hardsuit"
+	desc = "Salvaged hardsuit."
 	alt_desc = "Salvaged hardsuit."
 	icon_state = "rig_salvage"
 	inhand_icon_state = "rig_salvage"
@@ -970,6 +977,24 @@
 	armor = list("melee" = 40, "bullet" = 40, "laser" = 30, "energy" = 20, "bomb" = 40, "bio" = 100, "rad" = 0, "fire" = 50, "acid" = 40)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/skrell_helmet_black
 
+/obj/item/clothing/suit/space/hardsuit/rig_secalt_sec
+	name = "security hardsuit"
+	desc = "New style of security hardsuit."
+	alt_desc = "New style of security hardsuit."
+	icon_state = "rig_secalt_sec"
+	inhand_icon_state = "rig_secalt_sec"
+	slowdown = 0.7
+	hardsuit_type = "rig_secalt"
+	resistance_flags = NONE|FIRE_PROOF|FREEZE_PROOF
+	w_class = WEIGHT_CLASS_NORMAL
+	jetpack = null
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	armor = list("melee" = 45, "bullet" = 30, "laser" = 30, "energy" = 10, "bomb" = 30, "bio" = 100, "rad" = 50, "fire" = 95, "acid" = 85)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/rig_secalt
+
+
+
 /obj/item/clothing/head/helmet/space/hardsuit/medical
 	name = "paramedical hardsuit helmet"
 	icon_state = "hardsuit0-paramedic"
@@ -991,8 +1016,8 @@
 	slowdown = 0.5
 
 /obj/item/clothing/head/helmet/space/hardsuit/pilot_helm
-	name = "шлем космического пилота"
-	desc = "В нём всё ещё можно пилотировать, не так ли?."
+	name = "pilot hardsuit helmet"
+	desc = "For space pilots."
 	alt_desc = "For space pilots."
 	icon_state = "pilot_helm"
 	inhand_icon_state = "pilot_helm"
@@ -1009,8 +1034,8 @@
 	resistance_flags = NONE|FIRE_PROOF|FREEZE_PROOF
 
 /obj/item/clothing/suit/space/hardsuit/pilot
-	name = "скафандр пилота"
-	desc = "Летать хорошо, а летать живым лучше."
+	name = "pilot hardsuit"
+	desc = "For space pilots."
 	alt_desc = "For space pilots."
 	icon_state = "pilot"
 	inhand_icon_state = "pilot"
@@ -1025,8 +1050,8 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/pilot_helm
 
 /obj/item/clothing/head/helmet/space/hardsuit/helm_explorer
-	name = "шлем исследователя пустоты"
-	desc = "Через него хорошо видно."
+	name = "explorer void suit helmet"
+	desc = "For space explorers."
 	alt_desc = "For space explorers."
 	icon_state = "helm_explorer"
 	inhand_icon_state = "helm_explorer"
@@ -1043,8 +1068,8 @@
 	resistance_flags = NONE|FIRE_PROOF|FREEZE_PROOF
 
 /obj/item/clothing/suit/space/hardsuit/void_explorer
-	name = "скафандр исследователя пустоты"
-	desc = "Пригодится в любом космическом путешествии."
+	name = "explorer void suit"
+	desc = "For space explorers."
 	alt_desc = "For space explorers."
 	icon_state = "void_explorer"
 	inhand_icon_state = "void_explorer"
@@ -1057,6 +1082,41 @@
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 35, "bio" = 100, "rad" = 90, "fire" = 80, "acid" = 80)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/helm_explorer
+
+// no
+/obj/item/clothing/head/helmet/space/hardsuit/rig_secb
+	name = "security hardsuit helmet"
+	desc = "For space security."
+	alt_desc = "For space security."
+	icon_state = "sec_helm1"
+	inhand_icon_state = "sec_helm1"
+	hardsuit_type = "rig_sec1"
+	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
+	icon = 'white/Wzzzz/clothing/head.dmi'
+	armor = list("melee" = 45, "bullet" = 30, "laser" = 30, "energy" = 10, "bomb" = 30, "bio" = 100, "rad" = 50, "fire" = 95, "acid" = 85)
+	flash_protect = 1
+	actions_types = null
+	light_system = MOVABLE_LIGHT
+	light_range = 1
+	light_power = 0.6
+	light_on = FALSE
+	resistance_flags = NONE|FIRE_PROOF
+
+/obj/item/clothing/suit/space/hardsuit/rig_secb
+	name = "security hardsuit"
+	desc = "For space security."
+	alt_desc = "For space security."
+	icon_state = "rig_sec1"
+	inhand_icon_state = "rig_sec1"
+	slowdown = 0.7
+	hardsuit_type = "pilot"
+	resistance_flags = NONE|FIRE_PROOF
+	w_class = WEIGHT_CLASS_NORMAL
+	jetpack = null
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	armor = list("melee" = 45, "bullet" = 30, "laser" = 30, "energy" = 10, "bomb" = 30, "bio" = 100, "rad" = 50, "fire" = 95, "acid" = 85)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/rig_secb
 
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite/null
 	name = "hardsuit helmet"
@@ -1074,8 +1134,6 @@
 	light_power = 1
 	light_on = FALSE
 	resistance_flags = NONE|FIRE_PROOF
-	flags_inv = HIDEEARS|HIDEHAIR|HIDEEYES|HIDEFACIALHAIR|HIDEFACE|HIDESNOUT|HIDESNOUT|HIDEHEADGEAR
-	visor_flags_inv = HIDEEARS|HIDEHAIR|HIDEEYES|HIDEFACIALHAIR|HIDEFACE|HIDESNOUT|HIDESNOUT|HIDEHEADGEAR
 
 /obj/item/clothing/suit/space/hardsuit/syndi/elite/null
 	name = "hardsuit"
@@ -1093,35 +1151,5 @@
 	armor = list("melee" = 45, "bullet" = 30, "laser" = 30, "energy" = 10, "bomb" = 30, "bio" = 100, "rad" = 50, "fire" = 95, "acid" = 85)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite/null
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS|FULL_BODY
-	flags_inv = HIDEJUMPSUIT|HIDENECK|FULL_BODY
+	flags_inv = HIDEJUMPSUIT
 	visor_flags_inv = HIDEJUMPSUIT|HIDENECK|FULL_BODY
-
-/obj/item/clothing/head/helmet/space/hardsuit/syndi/elite/null/attack_self(mob/user) //Toggle Helmet
-	if(!isturf(user.loc))
-		to_chat(user, "<span class='warning'>Не могу переключить шлем. На нём [user.loc]!</span>" )
-		return
-	on = !on
-	if(on || force)
-		to_chat(user, "<span class='notice'>Переключаю костюм в режим скафандра, жертвуем скоростью для защиты от космоса.</span>")
-		name = initial(name)
-		desc = initial(desc)
-		set_light_on(TRUE)
-		clothing_flags |= visor_flags
-		cold_protection |= HEAD
-	else
-		to_chat(user, "<span class='notice'>Переключаю костюм в боевой режим. Скорость увеличена.</span>")
-		name += " (боевой)"
-		desc = alt_desc
-		set_light_on(FALSE)
-		clothing_flags &= ~visor_flags
-		cold_protection &= ~HEAD
-	update_icon()
-	playsound(src.loc, 'sound/mecha/mechmove03.ogg', 50, TRUE)
-	toggle_hardsuit_mode(user)
-	user.update_inv_head()
-	if(iscarbon(user))
-		var/mob/living/carbon/C = user
-		C.head_update(src, forced = 1)
-	for(var/X in actions)
-		var/datum/action/A = X
-		A.UpdateButtonIcon()

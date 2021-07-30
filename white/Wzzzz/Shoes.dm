@@ -34,63 +34,45 @@
 	icon_state = "flippers"
 	inhand_icon_state = "flippers"
 
-/obj/item/clothing/shoes/sneakers/boots
+/obj/item/clothing/shoes/sneakers/full
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/white
+/obj/item/clothing/shoes/sneakers/full/white
 	icon_state = "white"
 	inhand_icon_state = "white"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/red
+/obj/item/clothing/shoes/sneakers/full/red
 	icon_state = "red"
 	inhand_icon_state = "red"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/black
+/obj/item/clothing/shoes/sneakers/full/black
 	icon_state = "black"
 	inhand_icon_state = "black"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/brown
+/obj/item/clothing/shoes/sneakers/full/brown
 	icon_state = "brown"
 	inhand_icon_state = "brown"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/orange
+/obj/item/clothing/shoes/sneakers/full/orange
 	icon_state = "orange"
 	inhand_icon_state = "orange"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/blue
+/obj/item/clothing/shoes/sneakers/full/blue
 	icon_state = "blue"
 	inhand_icon_state = "blue"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/green
+/obj/item/clothing/shoes/sneakers/full/green
 	icon_state = "green"
 	inhand_icon_state = "green"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/purple
+/obj/item/clothing/shoes/sneakers/full/purple
 	icon_state = "purple"
 	inhand_icon_state = "purple"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sneakers/boots/yellow
+/obj/item/clothing/shoes/sneakers/full/yellow
 	icon_state = "yellow"
 	inhand_icon_state = "yellow"
-	icon = 'white/Wzzzz/clothing/shoes.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
 /obj/item/clothing/shoes/jackboots/dutylong
 	icon_state = "dutylong"
@@ -100,10 +82,10 @@
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/jackboots/leather
+/obj/item/clothing/shoes/jackboots/medievalboots
 	icon_state = "medievalboots"
 	inhand_icon_state = "medievalboots"
-	name = "leather jackboots"
+	name = "medieval boots"
 	desc = "Long ago, but so near."
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
@@ -148,7 +130,7 @@
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/workboots/mining/medieval
+/obj/item/clothing/shoes/workboots/mining
 	name = "medieval boots"
 	desc = "Arabian style."
 	icon_state = "medieval"
@@ -172,13 +154,21 @@
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 
-/obj/item/clothing/shoes/sandal/socks
+/obj/item/clothing/shoes/sandal
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 	name = "tourist sandals"
 	desc = "Minimalistic, but probably useless."
 	icon_state = "tourist"
 	inhand_icon_state = "tourist"
+
+/obj/item/clothing/shoes/sneakers/detective
+	icon = 'white/Wzzzz/clothing/shoes.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
+	name = "detective shoes"
+	desc = "Special shoes for special proffesion."
+	icon_state = "detective"
+	inhand_icon_state = "detective"
 
 /obj/item/clothing/shoes/roman
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
@@ -188,31 +178,40 @@
 	icon_state = "roman"
 	inhand_icon_state = "roman"
 
-/obj/item/clothing/shoes/winterboots/fur
+/obj/item/clothing/shoes/winterboots
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
 	name = "fur boots"
 	desc = "Simple and warm."
 
-/obj/item/clothing/shoes/winterboots/fur/yellow
+/obj/item/clothing/shoes/winterboots/yellow
 	icon_state = "fur1"
 	inhand_icon_state = "fur1"
 
-/obj/item/clothing/shoes/winterboots/fur/grey
+/obj/item/clothing/shoes/winterboots/grey
 	icon_state = "fur2"
 	inhand_icon_state = "fur2"
 
-/obj/item/clothing/shoes/winterboots/fur/black
+/obj/item/clothing/shoes/winterboots/black
 	icon_state = "fur3"
 	inhand_icon_state = "fur3"
 
-//obj/item/clothing/shoes/sneakers/leather
-//	icon = 'white/Wzzzz/clothing/shoes.dmi'
-//	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
-//	name = "leather shoes"
-//	desc = "Someone's skin on your feet."
-//	icon_state = "leather"
-//	inhand_icon_state = "leather"
+/obj/item/clothing/shoes/laceup/alt
+	icon = 'white/Wzzzz/clothing/shoes.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
+	name = "leather shoes"
+	desc = "Someone's skin on your feet."
+	icon_state = "leather"
+	inhand_icon_state = "leather"
+
+/obj/item/clothing/shoes/jackboots/knig
+	icon = 'white/Wzzzz/clothing/shoes.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
+	name = "knight boots"
+	desc = "Heavy steps, heavy feets."
+	icon_state = "knight"
+	inhand_icon_state = "knight"
+	armor = list("melee" = 50, "bullet" = 40, "laser" = 15,"energy" = 5, "bomb" = 40, "bio" = 50, "rad" = 0, "fire" = 40, "acid" = 40)
 
 /obj/item/clothing/shoes/jackboots/wrapped
 	icon = 'white/Wzzzz/clothing/shoes.dmi'
@@ -223,3 +222,10 @@
 	inhand_icon_state = "wrappedboots"
 	permeability_coefficient = 0.5
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
+
+/obj/item/clothing/shoes/combat/arbiter
+	name = "arbiter boots"
+	desc = "Somebody saw description?"
+	icon = 'white/Wzzzz/clothing/shoes.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/feet.dmi'
+	icon_state = "arbiter"

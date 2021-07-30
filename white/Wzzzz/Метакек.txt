@@ -1,6 +1,5 @@
 Ветеран: /obj/item/clothing/suit/space/secger
 Охрана:
-webvest
 разгрузка
 tactical hazmat
 hardsuit1-security_rig
@@ -15,27 +14,10 @@ swatarmorb
 
 РД - labcoat_rd_nt/labcoat_rd2
 
+
+
 врачи:
 m_vest
 hardsuit0-medical_rig
 куртка
 ems_jacket_closed
-webvest
-
-вернуть космонавтика
-экскаватор?
-
-кольчуга
-туники
-греки, медьевали
-комментарии
-dyn hair med
-swat helmet
-obj/item/clothing/head/helmet/police
-coif suffix
-jester curse
-ng/head/bio_hood/scientist
-
-новый чаплан?
-
-? /obj/item/clothing/head/helmet/constable ?

@@ -2,58 +2,65 @@
 
 
 
-/obj/item/storage/belt/utility/alt
+/obj/item/storage/belt/utility
 	icon_state = "utility"
 	inhand_icon_state = "utility"
 	icon = 'white/Wzzzz/be.dmi'
 	worn_icon = 'white/Wzzzz/be1.dmi'
 
-/obj/item/storage/belt/medical/alt
+/obj/item/storage/belt/security/holster
+	name = "holster"
+	desc = "One belt - one gun."
+	icon_state = "holster"
+	inhand_icon_state = "holster"
+
+/obj/item/storage/belt/security/holster/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 1
+	STR.max_w_class = WEIGHT_CLASS_BULKY
+	STR.set_holdable(list(/obj/item/gun/energy/pulse/pistol,/obj/item/gun/ballistic/revolver,/obj/item/gun/ballistic/automatic/pistol/toy,/obj/item/gun/ballistic/automatic/pistol))
+
+/obj/item/storage/belt/medical
 	icon_state = "medicalbelt"
-	worn_icon_state = "medicalbelt"
 	inhand_icon_state = "medicalbelt"
 	icon = 'white/Wzzzz/be.dmi'
 	worn_icon = 'white/Wzzzz/be1.dmi'
 
-/obj/item/storage/belt/medical/alt/ems
+/obj/item/storage/belt/medical/ems
 	icon_state = "emsbelta"
 	inhand_icon_state = "emsbelta"
-	worn_icon_state = "emsbelta"
 
-/obj/item/storage/belt/military/alt
+/obj/item/storage/belt/military
 	icon_state = "emsbelt"
 	inhand_icon_state = "emsbelt"
 	icon = 'white/Wzzzz/be.dmi'
 	worn_icon = 'white/Wzzzz/be1.dmi'
-	worn_icon_state = "emsbelt"
 
-/obj/item/storage/belt/janitor/alt
+/obj/item/storage/belt/janitor
 	icon_state = "janibelt"
 	inhand_icon_state = "janibelt"
 	icon = 'white/Wzzzz/be.dmi'
 	worn_icon = 'white/Wzzzz/be1.dmi'
-	worn_icon_state = "janibelt"
 
-/obj/item/storage/belt/security/alt
+/obj/item/storage/belt/security
 	icon_state = "gearbelt"
 	inhand_icon_state = "gearbelt"
 	icon = 'white/Wzzzz/be.dmi'
 	worn_icon = 'white/Wzzzz/be1.dmi'
-	worn_icon_state = "gearbelt"
 
-/obj/item/storage/belt/security/alt/forensic
+/obj/item/storage/belt/security/forensic
 	icon_state = "forensic"
-	worn_icon_state = "forensic"
 	inhand_icon_state = "forensic"
 
-/obj/item/storage/belt/security/alt/forensic/ComponentInitialize()
+/obj/item/storage/belt/security/forensic/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_items = 4
 	STR.max_w_class = WEIGHT_CLASS_NORMAL
 	STR.max_combined_w_class = 10
 
-/obj/item/storage/belt/security/alt/forensic/ComponentInitialize()
+/obj/item/storage/belt/security/forensic/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_items = 3
@@ -67,7 +74,6 @@
 	inhand_icon_state = "belt_holster"
 	icon = 'white/Wzzzz/be.dmi'
 	worn_icon = 'white/Wzzzz/be1.dmi'
-	worn_icon_state = "belt_holster"
 
 /obj/item/storage/belt/hol/ComponentInitialize()
 	. = ..()
@@ -81,7 +87,6 @@
 	icon_state = "belt_satchel"
 	desc = "Little satchel."
 	inhand_icon_state = "belt_satchel"
-	worn_icon_state = "belt_satchel"
 
 /obj/item/storage/belt/hol/sa/ComponentInitialize()
 	. = ..()
@@ -90,7 +95,7 @@
 	STR.max_w_class = WEIGHT_CLASS_NORMAL
 	STR.max_combined_w_class = 7
 
-/obj/item/storage/backpack/old
+/obj/item/storage/backpack
 	max_integrity = 325
 	obj_integrity = 325
 	icon = 'white/Wzzzz/clothing/backpag.dmi'
@@ -104,19 +109,16 @@
 	worn_icon = 'white/Wzzzz/clothing/mob/ties.dmi'
 	icon_state = "vest_black"
 	inhand_icon_state = "vest_black"
-	worn_icon_state = "vest_black"
 
 /obj/item/storage/belt/military/vest/brown
 	name = "german brown vest"
 	icon_state = "vest_brown"
 	inhand_icon_state = "vest_brown"
-	worn_icon_state = "vest_brown"
 
 /obj/item/storage/belt/military/vest/white
 	name = "german white vest"
 	icon_state = "vest_white"
 	inhand_icon_state = "vest_white"
-	worn_icon_state = "vest_white"
 
 /obj/item/storage/belt/mining/large
 	icon_state = "webbing_large"
@@ -124,7 +126,6 @@
 	worn_icon = 'white/Wzzzz/clothing/mob/ties.dmi'
 	inhand_icon_state = "webbing_large"
 	w_class = WEIGHT_CLASS_BULKY
-	worn_icon_state = "webbing_large"
 
 /obj/item/storage/belt/mining/large/ComponentInitialize()
 	. = ..()
@@ -177,7 +178,6 @@
 	icon = 'white/Wzzzz/clothing/ties.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/ties.dmi'
 	inhand_icon_state = "webbing"
-	worn_icon_state = "webbing"
 
 /obj/item/storage/belt/military/swat/alt
 	name = "swat webbing"
@@ -185,7 +185,6 @@
 	armor = list("melee" = 5, "bullet" = 0, "laser" = 5, "energy" = 0, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 5)
 	icon_state = "swatbelt"
 	inhand_icon_state = "swatbelt"
-	worn_icon_state = "swatbelt"
 
 /obj/item/storage/belt/military/swat/alt/ComponentInitialize()
 	. = ..()
@@ -201,7 +200,6 @@
 	worn_icon = 'white/Wzzzz/be1.dmi'
 	icon_state = "swatbeltc"
 	inhand_icon_state = "swatbeltc"
-	worn_icon_state = "swatbeltc"
 
 /obj/item/storage/belt/military/swat/ComponentInitialize()
 	. = ..()
@@ -218,7 +216,6 @@
 	armor = list("melee" = 5, "bullet" = 0, "laser" = 5, "energy" = 0, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 5)
 	icon_state = "machetebelt"
 	inhand_icon_state = "machetebelt"
-	worn_icon_state = "machetebelt"
 
 /obj/item/storage/belt/machete/ComponentInitialize()
 	. = ..()

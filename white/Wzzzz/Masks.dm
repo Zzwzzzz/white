@@ -85,7 +85,7 @@
 /obj/item/clothing/mask/gas/full
 	name = "gas mask"
 	desc = "A face-covering mask that can be connected to an air supply. Filters harmful gases from the air."
-	icon_state = "gasmask"
+	icon_state = "fullgas"
 	worn_icon = 'white/Wzzzz/clothing/mob/mask.dmi'
 	icon = 'white/Wzzzz/clothing/masks.dmi'
 	flags_inv = HIDEEARS|HIDEFACE|HIDEFACIALHAIR
@@ -95,7 +95,7 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	resistance_flags = NONE
-	inhand_icon_state = "gasmask"
+	inhand_icon_state = "fullgas"
 	armor = list(melee = 5, bullet = 5, laser = 5, energy = 0, bomb = 0, bio = 75, rad = 0)
 
 /obj/item/clothing/mask/breath/half
@@ -147,7 +147,7 @@
 
 /obj/item/clothing/mask/gas/germanfull
 	name = "old style gas mask"
-	desc = "Хайль Валтос."
+	desc = "С›РјРј. вЂ™Р°Р№Р»СЊ В¬Р°Р№С‚."
 	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEEYES
 	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEEYES
 	dynamic_hair_suffix = ""
@@ -195,12 +195,3 @@
 	icon_state = "balaclava"
 	flags_inv = HIDEHAIR|HIDEEARS
 	visor_flags_inv = HIDEHAIR|HIDEEARS
-
-/obj/item/clothing/mask/skull
-	name = "skull mask"
-	desc = "Life is full of cruel. That's one of examples."
-	slot_flags = ITEM_SLOT_MASK
-	icon = 'white/Wzzzz/clothing/head.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
-	icon_state = "skull_mask"
-	inhand_icon_state = "skull_mask"

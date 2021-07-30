@@ -4121,8 +4121,6 @@
 #include "white\valtos\code\yohei\yohei.dm"
 #include "white\Wzzzz\Armorsuits.dm"
 #include "white\Wzzzz\Belts.dm"
-#include "white\Wzzzz\Berets.dm"
-#include "white\Wzzzz\Crafts.dm"
 #include "white\Wzzzz\Customstatsitems.dm"
 #include "white\Wzzzz\Experiments.dm"
 #include "white\Wzzzz\Furniture.dm"

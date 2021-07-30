@@ -10,11 +10,11 @@
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 
-/obj/item/clothing/suit/toggle/labcoat/alt
+/obj/item/clothing/suit/toggle/labcoat/
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 
-/obj/item/clothing/suit/toggle/labcoat/alt/rd
+/obj/item/clothing/suit/toggle/labcoat/rd
 	name = "Research Director labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
@@ -31,6 +31,14 @@
 	icon_state = "nt_jacket"
 	body_parts_covered = CHEST|GROIN
 	inhand_icon_state = "nt_jacket"
+
+/obj/item/clothing/suit/toggle/zhongshan
+	name = "zhongshan"
+	desc = "Zhongshan"
+	icon_state = "zhongshan"
+	inhand_icon_state = "zhongshan"
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon = 'white/Wzzzz/clothing/suits.dmi'
 
 /obj/item/clothing/suit/toggle/tangzhuang
 	name = "tangzhuang"
@@ -95,6 +103,74 @@
 	inhand_icon_state = "navy_jacket"
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	icon = 'white/Wzzzz/clothing/suits.dmi'
+
+/obj/item/clothing/suit/toggle/trackjacketred
+	name = "track jacket red"
+	desc = "Track jacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "trackjacketred"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "trackjacketred"
+
+/obj/item/clothing/suit/toggle/trackjacket
+	name = "track jacket"
+	desc = "Track jacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "trackjacket"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "trackjacket"
+
+/obj/item/clothing/suit/toggle/trackjacketblue
+	name = "track jacket blue"
+	desc = "Track jacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "trackjacketblue"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "trackjacketblue"
+
+/obj/item/clothing/suit/toggle/trackjacketwhite
+	name = "track jacket white"
+	desc = "Track jacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "trackjacketwhite"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "trackjacketwhite"
+
+/obj/item/clothing/suit/toggle/trackjacketgreen
+	name = "track jacket green"
+	desc = "Track jacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "trackjacketgreen"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "trackjacketgreen"
+
+/obj/item/clothing/suit/toggle/ia_jacket
+	name = "track jacket"
+	desc = "Track jacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "ia_jacket"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "ia_jacket"
+
+/obj/item/clothing/suit/toggle/labcoat/labcoat_cmoalt
+	name = "cmo labcoat"
+	desc = "Another version of CMO labcoat"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "labcoat_cmoalt"
+	body_parts_covered = CHEST|GROIN|ARMS
+	inhand_icon_state = "labcoat_cmoalt"
 
 /obj/item/clothing/suit/toggle/brown_jacket
 	name = "brown jacket"
@@ -166,13 +242,21 @@
 	body_parts_covered = CHEST|ARMS
 	inhand_icon_state = "marshal_jacket"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/blue_edge_labcoat
+/obj/item/clothing/suit/toggle/labcoat/blue_edge_labcoat
 	name = "blue edge labcoat"
 	desc = "Blue edge...sounds cool"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
 	icon_state = "blue_edge_labcoat"
 	body_parts_covered = CHEST|GROIN|ARMS
 	inhand_icon_state = "blue_edge_labcoat"
+
+/obj/item/clothing/suit/toggle/labcoat/labgreen
+	name = "labcoat green"
+	desc = "You really want to wear it?"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "labgreen"
+	body_parts_covered = CHEST|GROIN|ARMS
+	inhand_icon_state = "labgreen"
 
 /obj/item/clothing/suit/toggle/smw_hoodie
 	name = "smw hoodie"
@@ -254,7 +338,7 @@
 	body_parts_covered = CHEST|ARMS
 	inhand_icon_state = "trackjackettcc"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/rdzeng
+/obj/item/clothing/suit/toggle/labcoat/rdzeng
 	name = "scientist labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
@@ -262,7 +346,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	inhand_icon_state = "labcoat_rd_zeng"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/rdheph
+/obj/item/clothing/suit/toggle/labcoat/rdheph
 	name = "scientist labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
@@ -270,7 +354,15 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	inhand_icon_state = "labcoat_rd_heph"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/rd2
+/obj/item/clothing/suit/toggle/labcoat/rd1
+	name = "scientist labcoat"
+	desc = "A suit that make some protection against some accidents at work"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "labcoat_rd1"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	inhand_icon_state = "labcoat_rd1"
+
+/obj/item/clothing/suit/toggle/labcoat/rd2
 	name = "scientist labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
@@ -278,7 +370,16 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	inhand_icon_state = "labcoat_rd2"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/heph
+/obj/item/clothing/suit/toggle/labcoat/zeng
+	name = "scientist labcoat"
+	desc = "A suit that make some protection against some accidents at work"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "labcoat_zeng"
+	body_parts_covered = CHEST|GROIN|ARMS
+	inhand_icon_state = "labcoat_zeng"
+
+
+/obj/item/clothing/suit/toggle/labcoat/heph
 	name = "scientist labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
@@ -286,7 +387,23 @@
 	body_parts_covered = CHEST|GROIN|ARMS
 	inhand_icon_state = "labcoat_rd_heph"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/xy
+/obj/item/clothing/suit/toggle/labcoat/sci
+	name = "scientist labcoat"
+	desc = "A suit that make some protection against some accidents at work"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "labcoat_1"
+	body_parts_covered = CHEST|GROIN|ARMS
+	inhand_icon_state = "labcoat_1"
+
+/obj/item/clothing/suit/toggle/labcoat/dais
+	name = "scientist labcoat"
+	desc = "A suit that make some protection against some accidents at work"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "labcoat_dais"
+	body_parts_covered = CHEST|GROIN|ARMS
+	inhand_icon_state = "labcoat_dais"
+
+/obj/item/clothing/suit/toggle/labcoat/xy
 	name = "scientist labcoat"
 	desc = "Advanced large labcoat for more risk science"
 	armor = list("melee" = 30, "bullet" = 0, "laser" = 20,"energy" = 20, "bomb" = 20, "bio" = 100, "rad" = 20, "fire" = 75, "acid" = 90)
@@ -294,7 +411,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	inhand_icon_state = "labcoat_xy"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/labcoat_sec
+/obj/item/clothing/suit/toggle/labcoat/labcoat_sec
 	name = "security labcoat"
 	desc = "A labcoat that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 10, "laser" = 5,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 40, "acid" = 75)
@@ -311,7 +428,7 @@
 	body_parts_covered = CHEST|GROIN
 	inhand_icon_state = "suitjacket"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/sco
+/obj/item/clothing/suit/toggle/labcoat/sco
 	name = "scientist labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
@@ -319,7 +436,23 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	inhand_icon_state = "labcoat_cso"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/poehl
+/obj/item/clothing/suit/toggle/labcoat/aptare
+	name = "aptare labcoat"
+	desc = "A suit that make some protection against some accidents at work"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "labcoat_aptare"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	inhand_icon_state = "labcoat_aptare"
+
+/obj/item/clothing/suit/toggle/labcoat/flip
+	name = "flip labcoat"
+	desc = "A suit that make some protection against some accidents at work"
+	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
+	icon_state = "flip_labcoat"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	inhand_icon_state = "flip_labcoat"
+
+/obj/item/clothing/suit/toggle/labcoat/poehl
 	name = "poehl labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)
@@ -327,7 +460,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	inhand_icon_state = "poehl_labcoat"
 
-/obj/item/clothing/suit/toggle/labcoat/alt/labcoat_black
+/obj/item/clothing/suit/toggle/labcoat/labcoat_black
 	name = "scientist labcoat"
 	desc = "A suit that make some protection against some accidents at work"
 	armor = list("melee" = 15, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 75, "rad" = 0, "fire" = 50, "acid" = 75)

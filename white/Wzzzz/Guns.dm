@@ -231,18 +231,6 @@
 	armour_penetration = 0
 	sharpness = 5
 
-/obj/item/chainsaw/circular/suicide_act(mob/living/carbon/user)
-	var/obj/item/bodypart/head/myhead = user.get_bodypart(BODY_ZONE_HEAD)
-	if(myhead)
-		inc_metabalance(user, METACOIN_SUICIDE_REWARD, reason="Нечего попусту тратить рабочую силу, вам штраф.")
-		user.visible_message("<span class='suicide'>[user] приставляет лезвие пилы себе к горлу и включает болгарку! Похоже, [user.p_theyre()] пытается совершить суицид!</span>")
-		myhead.dismember()
-//		myhead.forceMove(src)
-		playsound(user, "desecration-01.ogg", 50, TRUE, -1)
-		return BRUTELOSS
-	user.visible_message("<span class='suicide'>[user] приставляет лезвие пилы к себе и включает болгарку! Похоже, [user.p_theyre()] пытается совершить суицид!</span>")
-	return BRUTELOSS
-
 /obj/item/shovel/serrated/bone
 	name = "bone shovel"
 	desc = "Weapon and tool together."
@@ -270,10 +258,8 @@
 	inhand_icon_state = "pickaxe_bone"
 
 /obj/item/clothing/mask/cigarette/pipe/cobpipe/glass
-	icon = 'white/Wzzzz/clothing/masks.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/mask.dmi'
-	name = "glasspipe"
-
+	icon = 'white/Wzzzz/icons/Weea.dmi'
+	name = "pipe"
 
 /obj/item/gun/ballistic/automatic/assault_rifle
 	name = "assault rifle"

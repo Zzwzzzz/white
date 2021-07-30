@@ -2,15 +2,6 @@
 
 
 
-/obj/item/clothing/suit/imperium_monk/german
-	icon_state = "imperium_monk"
-	inhand_icon_state = "imperium_monk"
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	flags_inv = HIDEHAIR|HIDEEARS|256
-	visor_flags_inv = HIDEHAIR|HIDEEARS|256
-	armor = list("melee" = 30, "bullet" = 10, "laser" = 20,"energy" = 30, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 10)
-
 /obj/item/clothing/suit/wizrobe/psyamp
 	icon_state = "psyamp"
 	actions_types = list(/obj/effect/proc_holder/spell/targeted/projectile/magic_missile)
@@ -28,12 +19,6 @@
 /obj/item/clothing/suit/radiation/german
 	icon_state = "rad"
 	inhand_icon_state = "rad"
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-
-/obj/item/clothing/suit/radiation/germanold
-	icon_state = "rad_old"
-	inhand_icon_state = "rad_old"
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 
@@ -166,15 +151,6 @@
 	icon_state = "mbill"
 	body_parts_covered = CHEST|ARMS
 	inhand_icon_state = "mbill"
-
-/obj/item/clothing/suit/towel
-	name = "towel"
-	desc = "Space, war and you with towel"
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon_state = "towel"
-	body_parts_covered = CHEST|ARMS
-	inhand_icon_state = "towel"
 
 /obj/item/clothing/suit/suitjacket_purp
 	name = "jacket purple"
@@ -409,12 +385,6 @@
 	icon_state = "sciponcho_nt"
 	inhand_icon_state = "sciponcho_nt"
 
-/obj/item/clothing/suit/militaryjacket
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	body_parts_covered = CHEST|ARMS
-
 /obj/item/clothing/suit/service_co_coat
 	name = "service jacket"
 	desc = "Jacket for scientists."
@@ -428,18 +398,30 @@
 	desc = "Desert military jacket"
 	icon_state = "desertmiljacket"
 	inhand_icon_state = "desertmiljacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/militaryjacket/sec
 	name = "security jacket"
 	desc = "Security military jacket"
 	icon_state = "secmiljacket"
 	inhand_icon_state = "secmiljacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/militaryjacket/navy
 	name = "navy jacket"
 	desc = "Navy military jacket"
 	icon_state = "navymiljacket"
 	inhand_icon_state = "navymiljacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 20)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/greymiljacket
 	name = "grey jacket"
@@ -468,12 +450,6 @@
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	icon_state = "coatscience_dais"
 	inhand_icon_state = "coatscience_dais"
-
-/obj/item/clothing/suit/hooded/wintercoat/science/alt
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon_state = "coatscience1"
-	inhand_icon_state = "coatscience1"
 
 /obj/item/clothing/suit/hooded/wintercoat/science/nt
 	icon = 'white/Wzzzz/clothing/suits.dmi'
@@ -578,18 +554,6 @@
 	icon_state = "blackdress_com"
 	inhand_icon_state = "blackdress_com"
 
-/obj/item/clothing/suit/fire/atmos/grey
-	icon = 'white/Wzzzz/pirha.dmi'
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-	icon_state = "atmos_firesuitg"
-	inhand_icon_state = "atmos_firesuitg"
-
-/obj/item/clothing/suit/fire/atmos/black
-	icon = 'white/Wzzzz/pirha.dmi'
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-	icon_state = "atmos_firesuitb"
-	inhand_icon_state = "atmos_firesuitb"
-
 /obj/item/clothing/suit/fire/firefighter
 	icon = 'white/Wzzzz/pirha.dmi'
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
@@ -597,10 +561,6 @@
 /obj/item/clothing/suit/fire/firefighter/grey
 	icon_state = "firesuitg"
 	inhand_icon_state = "firesuitg"
-
-/obj/item/clothing/suit/fire/firefighter/black
-	icon_state = "firesuitb"
-	inhand_icon_state = "firesuitb"
 
 /obj/item/clothing/suit/hospitalgown
 	name = "hospital vest"
@@ -765,7 +725,7 @@
 	resistance_flags = NONE|ACID_PROOF|INDESTRUCTIBLE|UNACIDABLE|FIRE_PROOF|FREEZE_PROOF|LAVA_PROOF
 	armor = list("melee" = 80, "bullet" = 60, "laser" = 70,"energy" = 80, "bomb" = 90, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "magic" = 75)
 
-/obj/item/clothing/suit/bio_suit/scientist/alt
+/obj/item/clothing/suit/bio_suit/scientist
 	icon_state = "bio_scientist"
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
 	icon = 'white/Wzzzz/pirha.dmi'

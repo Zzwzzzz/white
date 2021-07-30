@@ -4,7 +4,7 @@
 
 /obj/item/clothing/under/jensen
 	name = "jensen jumpsuit"
-	desc = "I not asked for this!"
+	desc = "Я не просил не просить об этом"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "jensen"
@@ -15,8 +15,8 @@
 
 /obj/item/clothing/under/syndicate/sweater
 	name = "sweater turtleneck"
-	desc = "Comfortable and warm"
-	icon = 'white/Wzzzz/clothing/ties.dmi'
+	desc = "Тепло, уютно и немного колюче"
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "sweater"
 	can_adjust = FALSE
@@ -56,7 +56,7 @@
 	name = "NT worker uniform"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Work, work and work"
+	desc = "Я работаю, я работаю, и я всё ещё работаю на НТ"
 	icon_state = "ntwork"
 	inhand_icon_state = "ntwork"
 	can_adjust = FALSE
@@ -66,7 +66,7 @@
 	name = "NT pilot uniform"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Work, work and work"
+	desc = "Специально для пилотов НТ"
 	icon_state = "ntpilot"
 	can_adjust = FALSE
 	inhand_icon_state = "ntpilot"
@@ -87,7 +87,7 @@
 	name = "NT guard uniform"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "You need to guard, not look at your clothes"
+	desc = "На страже проходных пунктов"
 	icon_state = "ntguard"
 	inhand_icon_state = "ntguard"
 	alt_covers_chest = FALSE
@@ -189,7 +189,7 @@
 	name = "greydress jumpskirt"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Grey thing"
+	desc = "Серая, гладкая одёжка"
 	icon_state = "greydress"
 	inhand_icon_state = "greydress"
 	can_adjust = FALSE
@@ -202,26 +202,6 @@
 	desc = "Grey thing"
 	icon_state = "greydress_com"
 	inhand_icon_state = "greydress_com"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/greydressfem
-	name = "greydress female jumpskirt"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Grey thing"
-	icon_state = "greydressfem"
-	inhand_icon_state = "greydressfem"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/greydressfem_com
-	name = "greydress female jumpskirt"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Grey thing"
-	icon_state = "greydressfem_com"
-	inhand_icon_state = "greydressfem_com"
 	can_adjust = FALSE
 	alt_covers_chest = FALSE
 
@@ -245,31 +225,11 @@
 	inhand_icon_state = "blackdress_com"
 	alt_covers_chest = FALSE
 
-/obj/item/clothing/under/blackdressfem
-	name = "blackdress female jumpskirt"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Black thing"
-	icon_state = "blackdressfem"
-	inhand_icon_state = "blackdressfem"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/blackdressfem_com
-	name = "blackdress female jumpskirt"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Black thing"
-	icon_state = "blackdressfem_com"
-	can_adjust = FALSE
-	inhand_icon_state = "blackdressfem_com"
-	alt_covers_chest = FALSE
-
 /obj/item/clothing/under/rank/medical/doctor/sterile
 	name = "sterile jumpskirt"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Sterile"
+	desc = "Без столь стерильной одежды ты бы уже давно заразился СПИДом"
 	icon_state = "sterile"
 	can_adjust = FALSE
 	inhand_icon_state = "sterile"
@@ -301,7 +261,7 @@
 	name = "expedition jumpskirt"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Expedition uniform"
+	desc = "Опять экспедиция..."
 	can_adjust = FALSE
 	icon_state = "expeditionpt"
 	inhand_icon_state = "expeditionpt"
@@ -312,7 +272,7 @@
 	name = "miami shirt"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Miami!"
+	desc = "Кажется, я хочу в Майами"
 	icon_state = "miami"
 	can_adjust = FALSE
 	inhand_icon_state = "miami"
@@ -358,16 +318,6 @@
 	icon_state = "whiteservice"
 	can_adjust = FALSE
 	inhand_icon_state = "whiteservice"
-	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/whiteservicefem
-	name = "whiteservice female jumpskirt"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "White uniform"
-	icon_state = "whiteservicefem"
-	inhand_icon_state = "whiteservicefem"
-	can_adjust = FALSE
 	alt_covers_chest = FALSE
 
 /obj/item/clothing/under/rank/security/head_of_security/hosred
@@ -451,38 +401,6 @@
 	name = "johnny uniform"
 	desc = "Johnny, from Johnny, for Johnny"
 	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/orang
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	icon_state = "orang"
-	name = "orange uniform"
-	can_adjust = FALSE
-	desc = "If you like orange"
-	inhand_icon_state = "orang"
-	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/color
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	desc = "Simple, but classic"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/color/blue
-	icon_state = "blu"
-	inhand_icon_state = "blu"
-	name = "blue uniform"
-
-/obj/item/clothing/under/color/purple
-	icon_state = "purpl"
-	inhand_icon_state = "purpl"
-	name = "purpel uniform"
-
-/obj/item/clothing/under/color/green
-	icon_state = "gree"
-	inhand_icon_state = "gree"
-	name = "green"
 
 /obj/item/clothing/under/mai_yang
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
@@ -874,8 +792,6 @@
 	can_adjust = FALSE
 	alt_covers_chest = FALSE
 
-
-
 /obj/item/clothing/under/rank/security/head_of_security/hos_corporate
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
@@ -948,17 +864,6 @@
 /obj/item/clothing/under/bride/purple
 	icon_state = "bride_purple"
 	inhand_icon_state = "bride_purple"
-
-/obj/item/clothing/under/dress_orange
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	icon_state = "dress_orange"
-	name = "dress"
-	can_adjust = FALSE
-	desc = "True girl"
-	inhand_icon_state = "dress_orange"
-	alt_covers_chest = FALSE
-	has_sensor = NO_SENSORS
 
 /obj/item/clothing/under/dress_saloon
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
@@ -1050,48 +955,6 @@
 	name = "undertaker suit"
 	desc = "For true undertakers"
 	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/stripper
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	name = "stripper clothing"
-	desc = "To seduce someone?"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-	has_sensor = NO_SENSORS
-
-/obj/item/clothing/under/stripper/g
-	icon_state = "stripper_g"
-	inhand_icon_state = "stripper_g"
-
-/obj/item/clothing/under/stripper/p
-	icon_state = "stripper_p"
-	inhand_icon_state = "stripper_p"
-
-/obj/item/clothing/under/swim
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	name = "swim suit"
-	desc = "Good dive in space"
-	alt_covers_chest = FALSE
-	can_adjust = FALSE
-	has_sensor = NO_SENSORS
-
-/obj/item/clothing/under/swim/blue
-	icon_state = "swim_blue"
-	inhand_icon_state = "swim_blue"
-
-/obj/item/clothing/under/swim/red
-	icon_state = "swim_red"
-	inhand_icon_state = "swim_red"
-
-/obj/item/clothing/under/swim/purp
-	icon_state = "swim_purp"
-	inhand_icon_state = "swim_purp"
-
-/obj/item/clothing/under/swim/green
-	icon_state = "swim_green"
-	inhand_icon_state = "swim_green"
 
 /obj/item/clothing/under/syndicate/combat
 	resistance_flags = NONE|FREEZE_PROOF|FIRE_PROOF
@@ -1211,38 +1074,10 @@
 	icon_state = "tactifoolb"
 	inhand_icon_state = "tactifoolb"
 
-/obj/item/clothing/under/syndicate/fiendsuit
-	name = "fiend suit"
-	desc = "Darkness inside"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	icon_state = "fiendsuit"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	cold_protection = CHEST|GROIN|LEGS|ARMS
-	inhand_icon_state = "fiendsuit"
-	cold_protection = 50
-	min_cold_protection_temperature = 50
-	armor = list("melee" = 10, "bullet" = 10, "laser" = 5,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10, "magic" = 25)
-
-/obj/item/clothing/under/syndicate/fienddress
-	name = "fiend dress"
-	desc = "Darkness inside"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	icon_state = "fienddress"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-	body_parts_covered = CHEST|GROIN|LEGS
-	cold_protection = CHEST|GROIN|LEGS
-	inhand_icon_state = "fienddress"
-	armor = list("melee" = 10, "bullet" = 10, "laser" = 5,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10, "magic" = 25)
-
 /obj/item/clothing/under/syndicate/huntress
 	name = "huntress outfit"
 	desc = "Leather, light and open"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "huntress"
 	can_adjust = FALSE
@@ -1255,7 +1090,7 @@
 /obj/item/clothing/under/syndicate/hunter
 	name = "hunter outfit"
 	desc = "Leather, light and open"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "hunter"
 	can_adjust = FALSE
@@ -1267,7 +1102,7 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/hunter
 
 /obj/item/clothing/under/rank/security/officer/pcrcsuit
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "pcrcsuit"
 	inhand_icon_state = "pcrcsuit"
@@ -1277,7 +1112,7 @@
 /obj/item/clothing/under/syndicate/familiartunic
 	name = "familiar tunic"
 	desc = "So familiar..."
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "familiartunic"
 	inhand_icon_state = "familiartunic"
@@ -1287,7 +1122,7 @@
 
 /obj/item/clothing/under/rank/engineering/engineer/morpheus
 	name = "комбинезон рабочего"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	desc = "Для тяжёлой работы."
 	icon_state = "morpheus"
@@ -1299,7 +1134,7 @@
 /obj/item/clothing/under/syndicate/grimhoodie
 	name = "grim hoodie"
 	desc = "Grim hooodiiiee"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "grimhoodie"
 	inhand_icon_state = "grimhoodie"
@@ -1310,7 +1145,7 @@
 /obj/item/clothing/under/syndicate/skrell_suit
 	name = "skrell jumpsuit"
 	desc = "For skrells, but for humans"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "skrell_suit"
 	inhand_icon_state = "skrell_suit"
@@ -1319,7 +1154,7 @@
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 10,"energy" = 0, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 15, "acid" = 10)
 
 /obj/item/clothing/under/rank/security/officer/guard
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	name = "guard jumpsuit"
 	desc = "Not usual security, that's guard"
@@ -1339,7 +1174,7 @@
 /obj/item/clothing/under/syndicate/kimono
 	name = "kimono"
 	desc = "Kimono!"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "kimono"
 	inhand_icon_state = "kimono"
@@ -1350,7 +1185,7 @@
 /obj/item/clothing/under/dais
 	name = "dais suit"
 	desc = "Dais..."
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "dais"
 	inhand_icon_state = "dais"
@@ -1360,7 +1195,7 @@
 /obj/item/clothing/under/skinner
 	name = "skinner suit"
 	desc = "Someone can get heart attack..."
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "skinner"
 	inhand_icon_state = "skinner"
@@ -1371,7 +1206,7 @@
 /obj/item/clothing/under/confed
 	name = "confed suit"
 	desc = "Some looks like navy suit."
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "confed"
 	inhand_icon_state = "confed"
@@ -1381,7 +1216,7 @@
 /obj/item/clothing/under/wetsuit
 	name = "wetsuit"
 	desc = "For swimming?"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "wetsuit"
 	inhand_icon_state = "wetsuit"
@@ -1392,7 +1227,7 @@
 /obj/item/clothing/under/m_utility
 	name = "utility jumpsuit"
 	desc = "Unusual style"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "m_utility"
 	inhand_icon_state = "m_utility"
@@ -1402,7 +1237,7 @@
 /obj/item/clothing/under/m_service
 	name = "service jumpsuit"
 	desc = "Unusual style"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "m_service"
 	inhand_icon_state = "m_service"
@@ -1412,7 +1247,7 @@
 /obj/item/clothing/under/bluetunic
 	name = "blue tunic"
 	desc = "Some pretty."
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "bluetunic"
 	inhand_icon_state = "bluetunic"
@@ -1423,7 +1258,7 @@
 /obj/item/clothing/under/caretaker
 	name = "caretaker outfit"
 	desc = "To take care."
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "caretaker"
 	inhand_icon_state = "caretaker"
@@ -1434,7 +1269,7 @@
 /obj/item/clothing/under/inf_mob
 	name = "mob outfit"
 	desc = "Now you're mob..."
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "inf_mob"
 	inhand_icon_state = "inf_mob"
@@ -1496,7 +1331,7 @@
 /obj/item/clothing/under/m_utility_i
 	name = "utility jumpsuit"
 	desc = "Unusual style"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "m_utility_i"
 	inhand_icon_state = "m_utility_i"
@@ -1506,7 +1341,7 @@
 /obj/item/clothing/under/m_service_i
 	name = "service jumpsuit"
 	desc = "Unusual style"
-	icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 	icon_state = "m_service_i"
 	inhand_icon_state = "m_service_i"
@@ -1573,7 +1408,7 @@
 	icon_state = "smockexec_heph"
 	inhand_icon_state = "smockexec_heph"
 
-/obj/item/clothing/under/suit
+/obj/item/clothing/under/suit/alt
 	name = "suit uniform"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
@@ -1583,19 +1418,19 @@
 	can_adjust = FALSE
 	alt_covers_chest = FALSE
 
-/obj/item/clothing/under/suit/nt
+/obj/item/clothing/under/suit/alt/nt
 	icon_state = "suit_nt"
 	inhand_icon_state = "suit_nt"
 
-/obj/item/clothing/under/suit/heph
+/obj/item/clothing/under/suit/alt/heph
 	icon_state = "suit_heph"
 	inhand_icon_state = "suit_heph"
 
-/obj/item/clothing/under/suit/zeng
+/obj/item/clothing/under/suit/alt/zeng
 	icon_state = "suit_zeng"
 	inhand_icon_state = "suit_zeng"
 
-/obj/item/clothing/under/dress
+/obj/item/clothing/under/dress_m
 	name = "dress uniform"
 	desc = "Stylish dress"
 	icon_state = "m_dress"
@@ -1613,12 +1448,12 @@
 	inhand_icon_state = "m_dress_i"
 	has_sensor = NO_SENSORS
 
-/obj/item/clothing/under/syndicate/fiendsuit/watcher
+/obj/item/clothing/under/syndicate/fiendsuit
 	name = "fiend suit"
 	desc = "Darkness inside"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	icon_state = "watchsuit"
+	icon_state = "fiendsuit"
 	can_adjust = FALSE
 	alt_covers_chest = FALSE
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
@@ -1626,8 +1461,21 @@
 	inhand_icon_state = "fiendsuit"
 	cold_protection = 50
 	min_cold_protection_temperature = 50
-	armor = list("melee" = 10, "bullet" = 10, "laser" = 5, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10, "magic" = 25)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/watcher
+	armor = list("melee" = 10, "bullet" = 10, "laser" = 5,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10, "magic" = 25)
+
+/obj/item/clothing/under/syndicate/fienddress
+	name = "fiend dress"
+	desc = "Darkness inside"
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	icon_state = "fienddress"
+	can_adjust = FALSE
+	alt_covers_chest = FALSE
+	body_parts_covered = CHEST|GROIN|LEGS
+	cold_protection = CHEST|GROIN|LEGS
+	inhand_icon_state = "fienddress"
+	armor = list("melee" = 10, "bullet" = 10, "laser" = 5,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10, "magic" = 25)
+
 
 /obj/item/clothing/under/vor
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
@@ -1670,14 +1518,6 @@
 	icon_state = "service_co"
 	body_parts_covered = CHEST|ARMS
 	inhand_icon_state = "service_co"
-
-/obj/item/clothing/under/vor/fservice_co
-	name = "service uniform"
-	desc = "For service."
-	armor = list("melee" = 15, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 15, "acid" = 15)
-	icon_state = "fservice_co"
-	body_parts_covered = CHEST|ARMS
-	inhand_icon_state = "fservice_co"
 
 /obj/item/clothing/under/vor/uniform
 	name = "combat uniform"
@@ -1734,25 +1574,7 @@
 	icon_state = "uniform_ct"
 	inhand_icon_state = "uniform_ct"
 
-/obj/item/clothing/under/indian
-	name = "indian outfit"
-	desc = "Leather, light and open"
-	icon = 'white/Wzzzz/clothing/uniforms.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
-	icon_state = "indian1"
-	inhand_icon_state = "indian1"
-	can_adjust = FALSE
-	alt_covers_chest = FALSE
-
-/obj/item/clothing/under/indian/alt1
-	icon_state = "indian2"
-	inhand_icon_state = "indian2"
-
-/obj/item/clothing/under/indian/alt2
-	icon_state = "indian3"
-	inhand_icon_state = "indian3"
-
-/obj/item/clothing/under/indian/pelt
+/obj/item/clothing/under/pelt
 	name = "giant leopard pelt"
 	desc = "Big and expensive."
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
@@ -1760,21 +1582,6 @@
 	icon_state = "giant_leopard_pelt"
 	inhand_icon_state = "giant_leopard_pelt"
 
-/obj/item/clothing/under/indian/shaman
-	icon_state = "indianshaman"
-	inhand_icon_state = "indianshaman"
-	name = "indian shaman outfit"
-
-/obj/item/clothing/under/indian/chef
-	icon_state = "indianchef"
-	inhand_icon_state = "indianchef"
-	name = "indian chef outfit"
-
-/obj/item/clothing/under/indian/spartan
-	icon_state = "spartan"
-	inhand_icon_state = "spartan"
-	name = "spartan clothing"
-	desc = "Nothing useless."
 
 /obj/item/clothing/under/sailor
 	name = "sailor uniform"
@@ -1818,27 +1625,27 @@
 	icon_state = "dutch_sailor"
 	inhand_icon_state = "dutch_sailor"
 
-/obj/item/clothing/under/costume/pirate
+/obj/item/clothing/under/costume/pirate/alt
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
 
-/obj/item/clothing/under/costume/pirate/a
+/obj/item/clothing/under/costume/pirate/alt/a
 	icon_state = "pirate1"
 	inhand_icon_state = "pirate1"
 
-/obj/item/clothing/under/costume/pirate/b
+/obj/item/clothing/under/costume/pirate/alt/b
 	icon_state = "pirate2"
 	inhand_icon_state = "pirate2"
 
-/obj/item/clothing/under/costume/pirate/c
+/obj/item/clothing/under/costume/pirate/alt/c
 	icon_state = "pirate3"
 	inhand_icon_state = "pirate3"
 
-/obj/item/clothing/under/costume/pirate/d
+/obj/item/clothing/under/costume/pirate/alt/d
 	icon_state = "pirate4"
 	inhand_icon_state = "pirate4"
 
-/obj/item/clothing/under/costume/pirate/e
+/obj/item/clothing/under/costume/pirate/alt/e
 	icon_state = "pirate5"
 	inhand_icon_state = "pirate5"
 
@@ -1881,7 +1688,7 @@
 	inhand_icon_state = "greek_commander"
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 13,"energy" = 10, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 20)
 
-/obj/item/clothing/under/civilian
+/obj/item/clothing/under/civilian/peasant
 	name = "civilian uniform"
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
@@ -1890,7 +1697,7 @@
 	can_adjust = TRUE
 	inhand_icon_state = "civuni"
 
-/obj/item/clothing/under/civilian/officer/french
+/obj/item/clothing/under/civilian/peasant/officer/french
 	icon_state = "french_officer"
 	inhand_icon_state = "french_officer"
 	name = "french officer uniform"
@@ -1898,6 +1705,9 @@
 /obj/item/clothing/under/tunic
 	icon = 'white/Wzzzz/clothing/uniforms.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	name = "tunic"
+	desc = "White tunic."
+	icon_state = "white_tunic"
 
 /obj/item/clothing/under/tunic/toga
 	icon_state = "toga"
@@ -1915,6 +1725,78 @@
 /obj/item/clothing/under/tunic/crusader/alt
 	icon_state = "crusader2"
 	inhand_icon_state = "crusader2"
+
+/obj/item/clothing/under/tunic/yellow
+	icon_state = "yellow_tunic"
+	desc = "Yellow tunic."
+
+/obj/item/clothing/under/tunic/blue
+	icon_state = "blue_tunic"
+	desc = "Blue tunic."
+
+/obj/item/clothing/under/tunic/red
+	icon_state = "red_tunic"
+	desc = "Red tunic."
+
+/obj/item/clothing/under/tunic/leather_tunic
+	icon_state = "leather_tunic"
+	desc = "Leather tunic."
+	armor = list("melee" = 10, "bullet" = 7, "laser" = 7,"energy" = 5, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 15, "acid" = 20)
+
+/obj/item/clothing/under/tunic/chaplain
+	icon_state = "white_tunic_long"
+	desc = "Special tunic for special person."
+
+/obj/item/clothing/under/tunic/short
+	icon_state = "swhite_tunic"
+	name = "short tunic"
+	desc = "Short tunic."
+
+/obj/item/clothing/under/tunic/short/yellow
+	icon_state = "syellow_tunic"
+	desc = "Yellow short tunic."
+
+/obj/item/clothing/under/tunic/short/blue
+	icon_state = "sblue_tunic"
+	desc = "Blue short tunic."
+
+/obj/item/clothing/under/tunic/short/red
+	icon_state = "sred_tunic"
+	desc = "Red short tunic."
+
+/obj/item/clothing/under/tunic/arab
+	icon_state = "arab1"
+	name = "arabian tunic"
+	desc = "Cheap tunic."
+
+/obj/item/clothing/under/tunic/arab/alt
+	icon_state = "arab2"
+	name = "arabian tunic"
+	desc = "Cheap tunic."
+	can_adjust = TRUE
+
+/obj/item/clothing/under/tunic/arab/luxury
+	icon_state = "arabw_tunic"
+	name = "arabian robe"
+	desc = "Good tunic."
+	body_parts_covered = CHEST|ARMS|GROIN|LEGS
+
+/obj/item/clothing/under/chainmail
+	can_adjust = FALSE
+
+/obj/item/clothing/under/chainmail/med
+	icon_state = "chainmailx"
+	inhand_icon_state = "chainmailx"
+	icon = 'white/Wzzzz/clothing/uniforms.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/uniform.dmi'
+	name = "chainmail"
+	body_parts_covered = NONE|CHEST
+	cold_protection = NONE|CHEST
+	heat_protection = NONE|CHEST
+	desc = "Chest protection."
+	worn_icon_state = "chainmailx"
+	armor = list("melee" = 15, "bullet" = 10, "laser" = 8,"energy" = 5, "bomb" = 10, "acid" = 5)
+	can_adjust = FALSE
 
 /obj/item/clothing/under/m35jacket
 	desc = "Uniform of the German Imperial Army. Life for the Kaiser!"

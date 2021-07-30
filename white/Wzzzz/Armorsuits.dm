@@ -33,16 +33,6 @@
 	heat_protection = CHEST|GROIN|LEGS|ARMS
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 20,"energy" = 10, "bomb" = 100, "bio" = 40, "rad" = 0, "fire" = 80, "acid" = 50)
 
-/obj/item/clothing/suit/bomb_suit/german/bombsuitsecold
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	icon_state = "bombsuitsecold"
-	inhand_icon_state = "bombsuitsecold"
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	cold_protection = CHEST|GROIN|LEGS|ARMS
-	heat_protection = CHEST|GROIN|LEGS|ARMS
-	armor = list("melee" = 50, "bullet" = 50, "laser" = 20,"energy" = 10, "bomb" = 100, "bio" = 40, "rad" = 0, "fire" = 80, "acid" = 50)
-
 /obj/item/clothing/suit/armor/hos/german
 	icon_state = "hosg"
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
@@ -85,8 +75,8 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/swatarmor
 
 /obj/item/clothing/suit/armor/hos/trenchcoat/jensen
-	name = "jensen trenchcoat"
-	desc = "You never asked for anything that stylish."
+	name = "шинель"
+	desc = "Кажется, никто не просил, чтобы это было здесь."
 	icon_state = "jensencoat"
 	inhand_icon_state = "jensencoat"
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
@@ -209,17 +199,7 @@
 	body_parts_covered = CHEST
 	armor = list("melee" = 15, "bullet" = 15, "laser" = 10,"energy" = 0, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 20)
 
-/obj/item/clothing/suit/armor/riot/knight/heavy
-	name = "heavy knight suit"
-	desc = "A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Helps the wearer resist shoving in close quarters."
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
-	icon_state = "knight_grey"
-	inhand_icon_state = "knight_grey"
-	armor = list("melee" = 80, "bullet" = 75, "laser" = 40, "energy" = 25, "bomb" = 60, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 80)
-	slowdown = 0.7
-
-/obj/item/clothing/suit/armor/changeling
+/obj/item/clothing/suit/armor/changeling/alt
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	armor = list("melee" = 50, "bullet" = 60, "laser" = 20, "energy" = 15, "bomb" = 60, "bio" = 100, "rad" = 0, "fire" = 50, "acid" = 70)
@@ -290,12 +270,6 @@
 	icon_state = "syndievestg"
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
 
-/obj/item/clothing/suit/armor/vest/capcarapace/syndicate/dark
-	icon = 'white/Wzzzz/pirha.dmi'
-	inhand_icon_state = "syndievestb"
-	icon_state = "syndievestb"
-	worn_icon = 'white/Wzzzz/pirha1.dmi'
-
 /obj/item/clothing/suit/armor/vest/warden/alt/grey
 	icon = 'white/Wzzzz/pirha.dmi'
 	worn_icon = 'white/Wzzzz/pirha1.dmi'
@@ -332,7 +306,7 @@
 	icon_state = "ladiesvictoriancoatb"
 	inhand_icon_state = "ladiesvictoriancoatb"
 
-/obj/item/clothing/suit/armor/riot
+/obj/item/clothing/suit/armor/riot/alt
 	name = "champion armor"
 	desc = "You're champion..."
 	icon = 'white/Wzzzz/clothing/suits.dmi'
@@ -341,7 +315,7 @@
 	inhand_icon_state = "champarmor"
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 20, "energy" = 10, "bomb" = 50, "bio" = 100, "rad" = 0, "fire" = 70, "acid" = 60)
 
-/obj/item/clothing/suit/armor/riot/knight/champion
+/obj/item/clothing/suit/armor/riot/knight/alt/champion
 	name = "champion armor"
 	desc = "You're space champion..."
 	icon = 'white/Wzzzz/clothing/suits.dmi'
@@ -350,6 +324,16 @@
 	inhand_icon_state = "star_champion"
 	armor = list("melee" = 60, "bullet" = 40, "laser" = 10, "energy" = 10, "bomb" = 50, "bio" = 100, "rad" = 0, "fire" = 70, "acid" = 60)
 
+/obj/item/clothing/suit/armor/riot/knight/alt/heavy
+	name = "heavy knight suit"
+	desc = "A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Helps the wearer resist shoving in close quarters."
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "knight_grey"
+	inhand_icon_state = "knight_grey"
+	armor = list("melee" = 80, "bullet" = 75, "laser" = 40, "energy" = 25, "bomb" = 60, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 80)
+	slowdown = 0.7
+
 /obj/item/clothing/suit/armor/vest/german/mercwebvest/grey
 	icon_state = "mercwebvestg"
 	inhand_icon_state = "mercwebvestg"
@@ -357,10 +341,6 @@
 /obj/item/clothing/suit/armor/vest/swatarmor_german/grey
 	icon_state = "swatarmorg"
 	inhand_icon_state = "swatarmorg"
-
-/obj/item/clothing/suit/armor/vest/swatarmor_german/black
-	icon_state = "swatarmorb"
-	inhand_icon_state = "swatarmorb"
 
 /obj/item/clothing/suit/armor/tac_hazmat
 	name = "tactical hazmat suit"
@@ -382,15 +362,15 @@
 
 /obj/item/clothing/suit/armor/bone
 	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/head.dmi'
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	icon_state = "bonearmor"
 	inhand_icon_state = "bonearmor"
 
-/obj/item/clothing/suit/armor
+/obj/item/clothing/suit/armor/med
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 
-/obj/item/clothing/suit/armor/hauberk
+/obj/item/clothing/suit/armor/med/hauberk
 	icon_state = "hauberk"
 	inhand_icon_state = "hauberk"
 	name = "hauberk"
@@ -400,92 +380,79 @@
 	cold_protection = NONE|CHEST|HANDS|LEGS|GROIN
 	heat_protection = NONE|CHEST|HANDS|LEGS|GROIN
 
-/obj/item/clothing/suit/armor/riot/knight
+/obj/item/clothing/suit/armor/med/riot/knight
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	icon_state = "knight_simple1"
 	inhand_icon_state = "knight_simple1"
 
-/obj/item/clothing/suit/armor/vest
+/obj/item/clothing/suit/armor/med/vest/leather
+	icon_state = "leather_chestplate"
+	inhand_icon_state = "leather_chestplate"
+	name = "leather chestplate"
 	body_parts_covered = NONE|CHEST
 	cold_protection = NONE|CHEST
 	heat_protection = NONE|CHEST
 	desc = "Chest protection."
-
-/obj/item/clothing/suit/armor/vest/leather
-	icon_state = "leather_chestplate"
-	inhand_icon_state = "leather_chestplate"
-	name = "leather chestplate"
 	armor = list("melee" = 20, "bullet" = 10, "laser" = 5,"energy" = 3, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 15)
 
-/obj/item/clothing/suit/armor/vest/leather/alt
-	icon_state = "leather_armor2"
-	inhand_icon_state = "leather_armor2"
-	name = "leather chestplate"
-	armor = list("melee" = 20, "bullet" = 10, "laser" = 5,"energy" = 3, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 15)
-
-/obj/item/clothing/suit/armor/vest/bronze
+/obj/item/clothing/suit/armor/med/vest/bronze
 	icon_state = "bronze_chestplate"
 	inhand_icon_state = "bronze_chestplate"
 	name = "bronze chestplate"
+	body_parts_covered = NONE|CHEST
+	cold_protection = NONE|CHEST
+	heat_protection = NONE|CHEST
+	desc = "Chest protection."
 	armor = list("melee" = 25, "bullet" = 17, "laser" = 10,"energy" = 7, "bomb" = 23, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 20)
 
-/obj/item/clothing/suit/armor/vest/iron
+/obj/item/clothing/suit/armor/med/vest/iron
 	icon_state = "iron_chestplate"
 	inhand_icon_state = "iron_chestplate"
 	name = "iron chestplate"
+	body_parts_covered = NONE|CHEST
+	cold_protection = NONE|CHEST
+	heat_protection = NONE|CHEST
+	desc = "Chest protection."
 	armor = list("melee" = 27, "bullet" = 20, "laser" = 15,"energy" = 8, "bomb" = 27, "bio" = 0, "rad" = 0, "fire" = 23, "acid" = 22)
 
-/obj/item/clothing/suit/armor/vest/chain
-	icon_state = "chainmailx"
-	inhand_icon_state = "chainmailx"
-	name = "chainmail"
-	armor = list("melee" = 25, "bullet" = 20, "laser" = 20,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 15)
-
-/obj/item/clothing/suit/armor/vest/iron/a
+/obj/item/clothing/suit/armor/med/vest/iron/a
 	icon_state = "iron_chestplater"
 	inhand_icon_state = "iron_chestplater"
 
-/obj/item/clothing/suit/armor/vest/iron/b
+/obj/item/clothing/suit/armor/med/vest/iron/b
 	icon_state = "iron_chestplateb"
 	inhand_icon_state = "iron_chestplateb"
 
-/obj/item/clothing/suit/armor/vest/iron/c
+/obj/item/clothing/suit/armor/med/vest/iron/c
 	icon_state = "iron_chestplatec"
 	inhand_icon_state = "iron_chestplatec"
 
-/obj/item/clothing/suit/armor/plate/crusader
-	armor = list("melee" = 80, "bullet" = 65, "laser" = 100,"energy" = 100, "bomb" = 75, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
-
-/obj/item/clothing/suit/armor/opvest
-	name = "armored vest"
-	desc = "It provides some armor and some storage. Not really the best at either though."
+/obj/item/clothing/suit/armor/vest/nazi
 	icon = 'white/Wzzzz/clothing/suits.dmi'
 	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+
+/obj/item/clothing/suit/armor/vest/nazi/opvest
+	name = "armored vest"
+	desc = "It provides some armor and some storage. Not really the best at either though."
 	icon_state = "opvest"
 	armor = list("melee" = 40, "bullet" = 35, "laser" = 40,"energy" = 35, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 30)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/opvest
 
-/obj/item/clothing/suit/armor/vest/arbiter
+/obj/item/clothing/suit/armor/vest/nazi/arbiter
 	icon_state = "arbiter"
 
-/obj/item/clothing/suit/armor/vest/m35
+/obj/item/clothing/suit/armor/vest/nazi/m35
 	icon_state = "army_coat"
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 40,"energy" = 35, "bomb" = 40, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 	cold_protection = CHEST|GROIN|LEGS|ARMS
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 	heat_protection = CHEST|GROIN|LEGS|ARMS
 
-/obj/item/clothing/suit/armor/vest/m35/black
+/obj/item/clothing/suit/armor/vest/nazi/m35/black
 	icon_state = "elite_army_coat"
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 40,"energy" = 35, "bomb" = 40, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
 
-/obj/item/clothing/suit/armor/vest/m35/officer
+/obj/item/clothing/suit/armor/vest/nazi/m35/officer
 	icon_state = "super_elite_army_coat"
 	armor = list("melee" = 50, "bullet" = 55, "laser" = 45,"energy" = 35, "bomb" = 40, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 40)
-	icon = 'white/Wzzzz/clothing/suits.dmi'
-	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'

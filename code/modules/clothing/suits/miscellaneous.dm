@@ -800,12 +800,14 @@
 	desc = "Символ тяжелого труда и грязных работ."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "suspenders_blue"
+	worn_icon_state = "suspenders_blue"
 
 /obj/item/clothing/suit/toggle/suspenders/gray
 	name = "серые подтяжки"
 	desc = "Символ тяжелого труда и грязных работ."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "suspenders_gray"
+	worn_icon_state = "suspenders_gray"
 
 /obj/item/clothing/suit/hooded/mysticrobe
 	name = "мантия"

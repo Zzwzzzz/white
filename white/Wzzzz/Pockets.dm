@@ -43,5 +43,12 @@
 /datum/component/storage/concrete/pockets/webvest/Initialize()
 	. = ..()
 	max_items = 5
+	max_w_class = 3
 
-	max_w_class = WEIGHT_CLASS_NORMAL
+/datum/component/storage/concrete/pockets/cultist/Initialize()
+	. = ..()
+	max_items = 4
+	max_combined_w_class = 8
+	max_w_class = 3
+
+//pocket_storage_component_path = /datum/component/storage/concrete/pockets/watcher

@@ -126,6 +126,16 @@
 	body_parts_covered = CHEST|ARMS
 	inhand_icon_state = "bomber"
 
+/obj/item/clothing/suit/toggle/ems_jacket
+	name = "emergensy jacket"
+	desc = "If you wear it, then not time to read description"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "ems_jacket"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "ems_jacket"
+
 /obj/item/clothing/suit/toggle/whitedress
 	name = "white dress"
 	desc = "For important persons"
@@ -213,6 +223,36 @@
 	icon_state = "cti_hoodie"
 	body_parts_covered = CHEST|ARMS
 	inhand_icon_state = "cti_hoodie"
+
+/obj/item/clothing/suit/toggle/hoodie
+	name = "hoodie"
+	desc = "Hoodie for hoodies"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 5, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 5)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "hoodie"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "hoodie"
+
+/obj/item/clothing/suit/toggle/fr_jacket
+	name = "forensics jacket"
+	desc = "You really want wear it?"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "fr_jacket"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "fr_jacket"
+
+/obj/item/clothing/suit/toggle/trackjackettcc
+	name = "track jacket TTC"
+	desc = "Track jacket"
+	icon = 'white/Wzzzz/clothing/suits.dmi'
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 10)
+	worn_icon = 'white/Wzzzz/clothing/mob/suit.dmi'
+	icon_state = "trackjackettcc"
+	body_parts_covered = CHEST|ARMS
+	inhand_icon_state = "trackjackettcc"
 
 /obj/item/clothing/suit/toggle/labcoat/alt/rdzeng
 	name = "scientist labcoat"
